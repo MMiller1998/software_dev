@@ -1,0 +1,11 @@
+description,score,max
+graded by Manan,0,0
+xgui exist,5,5
+xgui executable,5,5
+first image correct,4,4
+second image correct,4,4
+closed on time,2,2
+function for image,5,5
+purpose statement,0,5
+bonus unit test,0,0
+total,25,30

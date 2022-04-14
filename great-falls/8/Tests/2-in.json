@@ -1,0 +1,53 @@
+{
+  "width": 300,
+  "height": 300,
+  "cities": [
+    ["A", [0, 0]],
+    ["B", [100, 100]],
+    ["C", [200, 200]],
+    ["D", [300, 300]],
+    ["E", [250, 250]]
+  ],
+  "connections": {
+    "A": {
+      "B": {
+        "red": 5
+      },
+      "C": {
+        "blue": 4
+      },
+      "D": {
+        "white": 4
+      },
+      "E": {
+        "white": 4
+      }
+    },
+    "B": {
+      "C": {
+        "white": 3
+      },
+      "D": {
+        "red": 4
+      },
+      "E": {
+        "white": 4
+      }
+    },
+    "C": {
+      "D": {
+        "white": 4
+      },
+      "E": {
+        "white": 4
+      }
+    },
+    "D": {
+      "E": {
+        "white": 4
+      }
+    }
+  }
+}
+[["Name1", "Hold-10"], ["Name2", "Buy-Now"]]
+["green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green", "green"]

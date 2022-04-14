@@ -1,0 +1,171 @@
+"Seattle"
+"Boston"
+{
+  "width": 800,
+  "height": 800,
+  "cities": [
+    [
+      "Seattle",
+      [
+        50,
+        50
+      ]
+    ],
+    [
+      "Helena",
+      [
+        100,
+        100
+      ]
+    ],
+    [
+      "aneleH",
+      [
+        100,
+        150
+      ]
+    ],
+    [
+      "Cheyenne",
+      [
+        150,
+        150
+      ]
+    ],
+    [
+      "enneyehC",
+      [
+        150,
+        200
+      ]
+    ],
+    [
+      "Lincoln",
+      [
+        200,
+        200
+      ]
+    ],
+    [
+      "nlocniL",
+      [
+        200,
+        250
+      ]
+    ],
+    [
+      "Kansas City",
+      [
+        300,
+        300
+      ]
+    ],
+    [
+      "Oklahoma City",
+      [
+        300,
+        400
+      ]
+    ],
+    [
+      "Jackson",
+      [
+        475,
+        500
+      ]
+    ],
+    [
+      "Nashville",
+      [
+        550,
+        400
+      ]
+    ],
+    [
+      "Washington, D.C.",
+      [
+        700,
+        300
+      ]
+    ],
+    [
+      "Princeton",
+      [
+        725,
+        250
+      ]
+    ],
+    [
+      "Boston",
+      [
+        750,
+        200
+      ]
+    ]
+  ],
+  "connections": {
+    "Jackson": {
+      "Nashville": {
+        "green": 5
+      },
+      "Oklahoma City": {
+        "white": 5
+      }
+    },
+    "aneleH": {
+      "Seattle": {
+        "blue": 3
+      },
+      "Cheyenne": {
+        "blue": 3
+      },
+      "enneyehC": {
+        "blue": 3
+      }
+    },
+    "Helena": {
+      "Seattle": {
+        "blue": 5
+      }
+    },
+    "Cheyenne": {
+      "Helena": {
+        "red": 5
+      },
+      "Lincoln": {
+        "red": 5
+      }
+    },
+    "enneyehC": {
+      "nlocniL": {
+        "blue": 3
+      }
+    },
+    "Kansas City": {
+      "Lincoln": {
+        "white": 5
+      },
+      "nlocniL": {
+        "blue": 3
+      },
+      "Oklahoma City": {
+        "white": 5
+      }
+    },
+    "Nashville": {
+      "Washington, D.C.": {
+        "green": 5
+      }
+    },
+    "Princeton": {
+      "Washington, D.C.": {
+        "blue": 5
+      }
+    },
+    "Boston": {
+      "Princeton": {
+        "blue": 5
+      }
+    }
+  }
+}

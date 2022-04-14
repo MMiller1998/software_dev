@@ -1,0 +1,52 @@
+{
+  "width": 500,
+  "height": 500,
+  "cities": [
+    ["BOS", [276, 34]],
+    ["BWI", [114, 324]],
+    ["IAD", [372, 319]],
+    ["JFK", [226, 216]],
+    ["LGA", [387, 183]],
+    ["MYR", [276, 410]],
+    ["PVD", [67, 95]]
+  ],
+  "connections": {
+    "BOS": {
+      "JFK": {
+        "red": 4
+      }
+    },
+    "BWI": {
+      "MYR": {
+        "blue": 4,
+        "green": 4
+      }
+    },
+    "IAD": {
+      "MYR": {
+        "green": 3
+      }
+    },
+    "JFK": {
+      "PVD": {
+        "white": 5
+      }
+    }
+  }
+}
+
+{
+  "this": {
+    "destination1" : ["JFK", "PVD"],
+    "destination2" : ["BWI", "IAD"],
+    "rails" : 20,
+    "cards" : {
+      "red" : 0,
+      "blue" : 4,
+      "green" : 10,
+      "white": 0
+    },
+    "acquired": []
+  },
+  "acquired": [[], [], []]
+}

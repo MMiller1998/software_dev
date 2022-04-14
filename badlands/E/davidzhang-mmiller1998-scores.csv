@@ -1,0 +1,9 @@
+description,score,max
+xtcp exist,5,5
+Tests/3-out.json Tests/2-out.json Tests/1-out.json Tests/3-in.json Tests/2-in.json Tests/1-in.json exist,5,5
+self-e.md filled out,5,5
+instructor tests,15,15
+your tests correct,15,15
+bonus caught classmate bug,10,0
+code inspection,40,30
+total,95,75

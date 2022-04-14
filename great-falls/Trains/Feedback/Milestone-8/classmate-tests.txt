@@ -1,0 +1,622 @@
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/clearwater/Tests/1-in.json /home/vagrant/new-repos/8/clearwater/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 26997
+(testing /home/vagrant/new-repos/8/clearwater/Tests/3-in.json /home/vagrant/new-repos/8/clearwater/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 26999
+((/home/vagrant/new-repos/8/clearwater/Tests/1-in.json /home/vagrant/new-repos/8/clearwater/Tests/1-out.json) (/home/vagrant/new-repos/8/clearwater/Tests/3-in.json /home/vagrant/new-repos/8/clearwater/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/franklin/Tests/1-in.json /home/vagrant/new-repos/8/franklin/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27003
+(testing /home/vagrant/new-repos/8/franklin/Tests/2-in.json /home/vagrant/new-repos/8/franklin/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27005
+(testing /home/vagrant/new-repos/8/franklin/Tests/3-in.json /home/vagrant/new-repos/8/franklin/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27007
+((/home/vagrant/new-repos/8/franklin/Tests/1-in.json /home/vagrant/new-repos/8/franklin/Tests/1-out.json) (/home/vagrant/new-repos/8/franklin/Tests/2-in.json /home/vagrant/new-repos/8/franklin/Tests/2-out.json) (/home/vagrant/new-repos/8/franklin/Tests/3-in.json /home/vagrant/new-repos/8/franklin/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/gateway-arch/Tests/1-in.json /home/vagrant/new-repos/8/gateway-arch/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27011
+(testing /home/vagrant/new-repos/8/gateway-arch/Tests/3-in.json /home/vagrant/new-repos/8/gateway-arch/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27013
+((/home/vagrant/new-repos/8/gateway-arch/Tests/1-in.json /home/vagrant/new-repos/8/gateway-arch/Tests/1-out.json) (/home/vagrant/new-repos/8/gateway-arch/Tests/3-in.json /home/vagrant/new-repos/8/gateway-arch/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/grand-mesa/Tests/1-in.json /home/vagrant/new-repos/8/grand-mesa/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27017
+(testing /home/vagrant/new-repos/8/grand-mesa/Tests/2-in.json /home/vagrant/new-repos/8/grand-mesa/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27019
+(testing /home/vagrant/new-repos/8/grand-mesa/Tests/3-in.json /home/vagrant/new-repos/8/grand-mesa/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27021
+((/home/vagrant/new-repos/8/grand-mesa/Tests/1-in.json /home/vagrant/new-repos/8/grand-mesa/Tests/1-out.json) (/home/vagrant/new-repos/8/grand-mesa/Tests/2-in.json /home/vagrant/new-repos/8/grand-mesa/Tests/2-out.json) (/home/vagrant/new-repos/8/grand-mesa/Tests/3-in.json /home/vagrant/new-repos/8/grand-mesa/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/great-basin/Tests/2-in.json /home/vagrant/new-repos/8/great-basin/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27025
+(testing /home/vagrant/new-repos/8/great-basin/Tests/3-in.json /home/vagrant/new-repos/8/great-basin/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27027
+((/home/vagrant/new-repos/8/great-basin/Tests/2-in.json /home/vagrant/new-repos/8/great-basin/Tests/2-out.json) (/home/vagrant/new-repos/8/great-basin/Tests/3-in.json /home/vagrant/new-repos/8/great-basin/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/gunnison/Tests/1-in.json /home/vagrant/new-repos/8/gunnison/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27031
+(testing /home/vagrant/new-repos/8/gunnison/Tests/2-in.json /home/vagrant/new-repos/8/gunnison/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27033
+(testing /home/vagrant/new-repos/8/gunnison/Tests/3-in.json /home/vagrant/new-repos/8/gunnison/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27035
+((/home/vagrant/new-repos/8/gunnison/Tests/1-in.json /home/vagrant/new-repos/8/gunnison/Tests/1-out.json) (/home/vagrant/new-repos/8/gunnison/Tests/2-in.json /home/vagrant/new-repos/8/gunnison/Tests/2-out.json) (/home/vagrant/new-repos/8/gunnison/Tests/3-in.json /home/vagrant/new-repos/8/gunnison/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/haleakal/Tests/1-in.json /home/vagrant/new-repos/8/haleakal/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27039
+(testing /home/vagrant/new-repos/8/haleakal/Tests/3-in.json /home/vagrant/new-repos/8/haleakal/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27041
+((/home/vagrant/new-repos/8/haleakal/Tests/1-in.json /home/vagrant/new-repos/8/haleakal/Tests/1-out.json) (/home/vagrant/new-repos/8/haleakal/Tests/3-in.json /home/vagrant/new-repos/8/haleakal/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/hammond-pond/Tests/1-in.json /home/vagrant/new-repos/8/hammond-pond/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27045
+(testing /home/vagrant/new-repos/8/hammond-pond/Tests/3-in.json /home/vagrant/new-repos/8/hammond-pond/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27047
+((/home/vagrant/new-repos/8/hammond-pond/Tests/1-in.json /home/vagrant/new-repos/8/hammond-pond/Tests/1-out.json) (/home/vagrant/new-repos/8/hammond-pond/Tests/3-in.json /home/vagrant/new-repos/8/hammond-pond/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/hampton-ponds/Tests/1-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27051
+(testing /home/vagrant/new-repos/8/hampton-ponds/Tests/2-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27053
+(testing /home/vagrant/new-repos/8/hampton-ponds/Tests/3-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27055
+((/home/vagrant/new-repos/8/hampton-ponds/Tests/1-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/1-out.json) (/home/vagrant/new-repos/8/hampton-ponds/Tests/2-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/2-out.json) (/home/vagrant/new-repos/8/hampton-ponds/Tests/3-in.json /home/vagrant/new-repos/8/hampton-ponds/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/harold-parker/Tests/1-in.json /home/vagrant/new-repos/8/harold-parker/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27059
+(testing /home/vagrant/new-repos/8/harold-parker/Tests/2-in.json /home/vagrant/new-repos/8/harold-parker/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27061
+(testing /home/vagrant/new-repos/8/harold-parker/Tests/3-in.json /home/vagrant/new-repos/8/harold-parker/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27063
+((/home/vagrant/new-repos/8/harold-parker/Tests/1-in.json /home/vagrant/new-repos/8/harold-parker/Tests/1-out.json) (/home/vagrant/new-repos/8/harold-parker/Tests/2-in.json /home/vagrant/new-repos/8/harold-parker/Tests/2-out.json) (/home/vagrant/new-repos/8/harold-parker/Tests/3-in.json /home/vagrant/new-repos/8/harold-parker/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/helena/Tests/1-in.json /home/vagrant/new-repos/8/helena/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27067
+(testing /home/vagrant/new-repos/8/helena/Tests/2-in.json /home/vagrant/new-repos/8/helena/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27069
+((/home/vagrant/new-repos/8/helena/Tests/1-in.json /home/vagrant/new-repos/8/helena/Tests/1-out.json) (/home/vagrant/new-repos/8/helena/Tests/2-in.json /home/vagrant/new-repos/8/helena/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/hemlock-gorge/Tests/3-in.json /home/vagrant/new-repos/8/hemlock-gorge/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27073
+((/home/vagrant/new-repos/8/hemlock-gorge/Tests/3-in.json /home/vagrant/new-repos/8/hemlock-gorge/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/hiawatha/Tests/1-in.json /home/vagrant/new-repos/8/hiawatha/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27077
+(testing /home/vagrant/new-repos/8/hiawatha/Tests/2-in.json /home/vagrant/new-repos/8/hiawatha/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27079
+(testing /home/vagrant/new-repos/8/hiawatha/Tests/3-in.json /home/vagrant/new-repos/8/hiawatha/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27081
+((/home/vagrant/new-repos/8/hiawatha/Tests/1-in.json /home/vagrant/new-repos/8/hiawatha/Tests/1-out.json) (/home/vagrant/new-repos/8/hiawatha/Tests/2-in.json /home/vagrant/new-repos/8/hiawatha/Tests/2-out.json) (/home/vagrant/new-repos/8/hiawatha/Tests/3-in.json /home/vagrant/new-repos/8/hiawatha/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/humboldt/Tests/1-in.json /home/vagrant/new-repos/8/humboldt/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27085
+(testing /home/vagrant/new-repos/8/humboldt/Tests/2-in.json /home/vagrant/new-repos/8/humboldt/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27087
+(testing /home/vagrant/new-repos/8/humboldt/Tests/3-in.json /home/vagrant/new-repos/8/humboldt/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27089
+((/home/vagrant/new-repos/8/humboldt/Tests/1-in.json /home/vagrant/new-repos/8/humboldt/Tests/1-out.json) (/home/vagrant/new-repos/8/humboldt/Tests/2-in.json /home/vagrant/new-repos/8/humboldt/Tests/2-out.json) (/home/vagrant/new-repos/8/humboldt/Tests/3-in.json /home/vagrant/new-repos/8/humboldt/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/huron/Tests/1-in.json /home/vagrant/new-repos/8/huron/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27093
+(testing /home/vagrant/new-repos/8/huron/Tests/2-in.json /home/vagrant/new-repos/8/huron/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27095
+((/home/vagrant/new-repos/8/huron/Tests/1-in.json /home/vagrant/new-repos/8/huron/Tests/1-out.json) (/home/vagrant/new-repos/8/huron/Tests/2-in.json /home/vagrant/new-repos/8/huron/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/indiana-dunes/Tests/1-in.json /home/vagrant/new-repos/8/indiana-dunes/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27101
+(testing /home/vagrant/new-repos/8/indiana-dunes/Tests/2-in.json /home/vagrant/new-repos/8/indiana-dunes/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27103
+(testing /home/vagrant/new-repos/8/indiana-dunes/Tests/3-in.json /home/vagrant/new-repos/8/indiana-dunes/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27105
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Los Angeles" (40 10))
+            ("San Diego" (120 50))
+            ("Tahoe" (60 130))
+            ("Vancouver" (70 150))
+            ("Denver" (10 80))
+            ("Lawrence" (140 90))
+            ("Cambridge" (30 30))
+            ("Cape Cod" (110 110))
+            ("Newton" (150 190))))
+          (connections
+           .
+           #hasheq((Cambridge
+                    .
+                    #hasheq((|Cape Cod| . #hasheq((green . 4) (red . 3)))))
+                   (|Cape Cod| . #hasheq((Newton . #hasheq((blue . 3)))))
+                   (Denver
+                    .
+                    #hasheq((Lawrence . #hasheq((green . 3)))
+                            (Vancouver . #hasheq((white . 3)))))
+                   (|Los Angeles|
+                    .
+                    #hasheq((Newton . #hasheq((white . 3)))
+                            (|San Diego|
+                             .
+                             #hasheq((blue . 4) (red . 3) (white . 4)))
+                            (Tahoe . #hasheq((green . 5)))))))
+          (height . 800)
+          (width . 800))
+  (("Harry" "Hold-10")
+   ("Taylor" "Buy-Now")
+   ("Nick" "Cheat")
+   ("Schmidt" "Cheat")
+   ("Winston" "Hold-10")
+   ("Jess" "Buy-Now")
+   ("Cece" "Cheat"))
+  ("red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"
+   "red"
+   "blue"
+   "white"
+   "green"))
+(*** expected)
+'(((("Jess") ("Harry") ("Winston") ("Taylor")) ("Cece" "Nick" "Schmidt")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("Jess") ("Winston") ("Harry") ("Taylor")) ("Cece" "Nick" "Schmidt")))))
+
+
+((/home/vagrant/new-repos/8/indiana-dunes/Tests/1-in.json /home/vagrant/new-repos/8/indiana-dunes/Tests/1-out.json) (/home/vagrant/new-repos/8/indiana-dunes/Tests/2-in.json /home/vagrant/new-repos/8/indiana-dunes/Tests/2-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/inyo/Tests/1-in.json /home/vagrant/new-repos/8/inyo/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27109
+((/home/vagrant/new-repos/8/inyo/Tests/1-in.json /home/vagrant/new-repos/8/inyo/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/joshua-tree/Tests/1-in.json /home/vagrant/new-repos/8/joshua-tree/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27113
+(testing /home/vagrant/new-repos/8/joshua-tree/Tests/3-in.json /home/vagrant/new-repos/8/joshua-tree/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27115
+((/home/vagrant/new-repos/8/joshua-tree/Tests/1-in.json /home/vagrant/new-repos/8/joshua-tree/Tests/1-out.json) (/home/vagrant/new-repos/8/joshua-tree/Tests/3-in.json /home/vagrant/new-repos/8/joshua-tree/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/kaibab/Tests/1-in.json /home/vagrant/new-repos/8/kaibab/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27119
+((/home/vagrant/new-repos/8/kaibab/Tests/1-in.json /home/vagrant/new-repos/8/kaibab/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/kenai-fjords/Tests/1-in.json /home/vagrant/new-repos/8/kenai-fjords/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27123
+(testing /home/vagrant/new-repos/8/kenai-fjords/Tests/2-in.json /home/vagrant/new-repos/8/kenai-fjords/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27125
+((/home/vagrant/new-repos/8/kenai-fjords/Tests/1-in.json /home/vagrant/new-repos/8/kenai-fjords/Tests/1-out.json) (/home/vagrant/new-repos/8/kenai-fjords/Tests/2-in.json /home/vagrant/new-repos/8/kenai-fjords/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/kings-canyon/Tests/1-in.json /home/vagrant/new-repos/8/kings-canyon/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27129
+(testing /home/vagrant/new-repos/8/kings-canyon/Tests/2-in.json /home/vagrant/new-repos/8/kings-canyon/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27131
+(testing /home/vagrant/new-repos/8/kings-canyon/Tests/3-in.json /home/vagrant/new-repos/8/kings-canyon/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27133
+((/home/vagrant/new-repos/8/kings-canyon/Tests/1-in.json /home/vagrant/new-repos/8/kings-canyon/Tests/1-out.json) (/home/vagrant/new-repos/8/kings-canyon/Tests/2-in.json /home/vagrant/new-repos/8/kings-canyon/Tests/2-out.json) (/home/vagrant/new-repos/8/kings-canyon/Tests/3-in.json /home/vagrant/new-repos/8/kings-canyon/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/kisatchie/Tests/1-in.json /home/vagrant/new-repos/8/kisatchie/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27137
+(testing /home/vagrant/new-repos/8/kisatchie/Tests/2-in.json /home/vagrant/new-repos/8/kisatchie/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27139
+(testing /home/vagrant/new-repos/8/kisatchie/Tests/3-in.json /home/vagrant/new-repos/8/kisatchie/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27141
+((/home/vagrant/new-repos/8/kisatchie/Tests/1-in.json /home/vagrant/new-repos/8/kisatchie/Tests/1-out.json) (/home/vagrant/new-repos/8/kisatchie/Tests/2-in.json /home/vagrant/new-repos/8/kisatchie/Tests/2-out.json) (/home/vagrant/new-repos/8/kisatchie/Tests/3-in.json /home/vagrant/new-repos/8/kisatchie/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/klamath/Tests/1-in.json /home/vagrant/new-repos/8/klamath/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27145
+((/home/vagrant/new-repos/8/klamath/Tests/1-in.json /home/vagrant/new-repos/8/klamath/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/kobuk-valley/Tests/1-in.json /home/vagrant/new-repos/8/kobuk-valley/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27149
+(testing /home/vagrant/new-repos/8/kobuk-valley/Tests/2-in.json /home/vagrant/new-repos/8/kobuk-valley/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27151
+(testing /home/vagrant/new-repos/8/kobuk-valley/Tests/3-in.json /home/vagrant/new-repos/8/kobuk-valley/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27153
+((/home/vagrant/new-repos/8/kobuk-valley/Tests/1-in.json /home/vagrant/new-repos/8/kobuk-valley/Tests/1-out.json) (/home/vagrant/new-repos/8/kobuk-valley/Tests/2-in.json /home/vagrant/new-repos/8/kobuk-valley/Tests/2-out.json) (/home/vagrant/new-repos/8/kobuk-valley/Tests/3-in.json /home/vagrant/new-repos/8/kobuk-valley/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/kootenai/Tests/2-in.json /home/vagrant/new-repos/8/kootenai/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27157
+(testing /home/vagrant/new-repos/8/kootenai/Tests/3-in.json /home/vagrant/new-repos/8/kootenai/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27159
+((/home/vagrant/new-repos/8/kootenai/Tests/2-in.json /home/vagrant/new-repos/8/kootenai/Tests/2-out.json) (/home/vagrant/new-repos/8/kootenai/Tests/3-in.json /home/vagrant/new-repos/8/kootenai/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/lake-clark/Tests/2-in.json /home/vagrant/new-repos/8/lake-clark/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27163
+((/home/vagrant/new-repos/8/lake-clark/Tests/2-in.json /home/vagrant/new-repos/8/lake-clark/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/lassen/Tests/1-in.json /home/vagrant/new-repos/8/lassen/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27167
+(testing /home/vagrant/new-repos/8/lassen/Tests/2-in.json /home/vagrant/new-repos/8/lassen/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27169
+(testing /home/vagrant/new-repos/8/lassen/Tests/3-in.json /home/vagrant/new-repos/8/lassen/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27171
+((/home/vagrant/new-repos/8/lassen/Tests/1-in.json /home/vagrant/new-repos/8/lassen/Tests/1-out.json) (/home/vagrant/new-repos/8/lassen/Tests/2-in.json /home/vagrant/new-repos/8/lassen/Tests/2-out.json) (/home/vagrant/new-repos/8/lassen/Tests/3-in.json /home/vagrant/new-repos/8/lassen/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/leominster/Tests/2-in.json /home/vagrant/new-repos/8/leominster/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27175
+((/home/vagrant/new-repos/8/leominster/Tests/2-in.json /home/vagrant/new-repos/8/leominster/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/lincoln/Tests/1-in.json /home/vagrant/new-repos/8/lincoln/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27179
+(testing /home/vagrant/new-repos/8/lincoln/Tests/2-in.json /home/vagrant/new-repos/8/lincoln/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27181
+((/home/vagrant/new-repos/8/lincoln/Tests/1-in.json /home/vagrant/new-repos/8/lincoln/Tests/1-out.json) (/home/vagrant/new-repos/8/lincoln/Tests/2-in.json /home/vagrant/new-repos/8/lincoln/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/los-padres/Tests/1-in.json /home/vagrant/new-repos/8/los-padres/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27185
+(testing /home/vagrant/new-repos/8/los-padres/Tests/2-in.json /home/vagrant/new-repos/8/los-padres/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27187
+(testing /home/vagrant/new-repos/8/los-padres/Tests/3-in.json /home/vagrant/new-repos/8/los-padres/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27189
+((/home/vagrant/new-repos/8/los-padres/Tests/1-in.json /home/vagrant/new-repos/8/los-padres/Tests/1-out.json) (/home/vagrant/new-repos/8/los-padres/Tests/2-in.json /home/vagrant/new-repos/8/los-padres/Tests/2-out.json) (/home/vagrant/new-repos/8/los-padres/Tests/3-in.json /home/vagrant/new-repos/8/los-padres/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/malheur/Tests/1-in.json /home/vagrant/new-repos/8/malheur/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27193
+(testing /home/vagrant/new-repos/8/malheur/Tests/2-in.json /home/vagrant/new-repos/8/malheur/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27195
+(testing /home/vagrant/new-repos/8/malheur/Tests/3-in.json /home/vagrant/new-repos/8/malheur/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27197
+((/home/vagrant/new-repos/8/malheur/Tests/1-in.json /home/vagrant/new-repos/8/malheur/Tests/1-out.json) (/home/vagrant/new-repos/8/malheur/Tests/2-in.json /home/vagrant/new-repos/8/malheur/Tests/2-out.json) (/home/vagrant/new-repos/8/malheur/Tests/3-in.json /home/vagrant/new-repos/8/malheur/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/mammoth-cave/Tests/1-in.json /home/vagrant/new-repos/8/mammoth-cave/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27201
+(testing /home/vagrant/new-repos/8/mammoth-cave/Tests/2-in.json /home/vagrant/new-repos/8/mammoth-cave/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27203
+((/home/vagrant/new-repos/8/mammoth-cave/Tests/1-in.json /home/vagrant/new-repos/8/mammoth-cave/Tests/1-out.json) (/home/vagrant/new-repos/8/mammoth-cave/Tests/2-in.json /home/vagrant/new-repos/8/mammoth-cave/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/massasoit/Tests/1-in.json /home/vagrant/new-repos/8/massasoit/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27207
+((/home/vagrant/new-repos/8/massasoit/Tests/1-in.json /home/vagrant/new-repos/8/massasoit/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/maudslay/Tests/1-in.json /home/vagrant/new-repos/8/maudslay/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27211
+(testing /home/vagrant/new-repos/8/maudslay/Tests/2-in.json /home/vagrant/new-repos/8/maudslay/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27213
+(testing /home/vagrant/new-repos/8/maudslay/Tests/3-in.json /home/vagrant/new-repos/8/maudslay/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27215
+((/home/vagrant/new-repos/8/maudslay/Tests/1-in.json /home/vagrant/new-repos/8/maudslay/Tests/1-out.json) (/home/vagrant/new-repos/8/maudslay/Tests/2-in.json /home/vagrant/new-repos/8/maudslay/Tests/2-out.json) (/home/vagrant/new-repos/8/maudslay/Tests/3-in.json /home/vagrant/new-repos/8/maudslay/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/mendocino/Tests/1-in.json /home/vagrant/new-repos/8/mendocino/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27219
+((/home/vagrant/new-repos/8/mendocino/Tests/1-in.json /home/vagrant/new-repos/8/mendocino/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/mesa-verde/Tests/1-in.json /home/vagrant/new-repos/8/mesa-verde/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27223
+(testing /home/vagrant/new-repos/8/mesa-verde/Tests/2-in.json /home/vagrant/new-repos/8/mesa-verde/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27225
+(testing /home/vagrant/new-repos/8/mesa-verde/Tests/3-in.json /home/vagrant/new-repos/8/mesa-verde/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27227
+((/home/vagrant/new-repos/8/mesa-verde/Tests/1-in.json /home/vagrant/new-repos/8/mesa-verde/Tests/1-out.json) (/home/vagrant/new-repos/8/mesa-verde/Tests/2-in.json /home/vagrant/new-repos/8/mesa-verde/Tests/2-out.json) (/home/vagrant/new-repos/8/mesa-verde/Tests/3-in.json /home/vagrant/new-repos/8/mesa-verde/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/modoc/Tests/1-in.json /home/vagrant/new-repos/8/modoc/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27231
+(testing /home/vagrant/new-repos/8/modoc/Tests/3-in.json /home/vagrant/new-repos/8/modoc/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27233
+((/home/vagrant/new-repos/8/modoc/Tests/1-in.json /home/vagrant/new-repos/8/modoc/Tests/1-out.json) (/home/vagrant/new-repos/8/modoc/Tests/3-in.json /home/vagrant/new-repos/8/modoc/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/mohawk-trail/Tests/2-in.json /home/vagrant/new-repos/8/mohawk-trail/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27237
+((/home/vagrant/new-repos/8/mohawk-trail/Tests/2-in.json /home/vagrant/new-repos/8/mohawk-trail/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/monongahela/Tests/1-in.json /home/vagrant/new-repos/8/monongahela/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27241
+(testing /home/vagrant/new-repos/8/monongahela/Tests/2-in.json /home/vagrant/new-repos/8/monongahela/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27243
+(testing /home/vagrant/new-repos/8/monongahela/Tests/3-in.json /home/vagrant/new-repos/8/monongahela/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27245
+((/home/vagrant/new-repos/8/monongahela/Tests/1-in.json /home/vagrant/new-repos/8/monongahela/Tests/1-out.json) (/home/vagrant/new-repos/8/monongahela/Tests/2-in.json /home/vagrant/new-repos/8/monongahela/Tests/2-out.json) (/home/vagrant/new-repos/8/monongahela/Tests/3-in.json /home/vagrant/new-repos/8/monongahela/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/monroe/Tests/2-in.json /home/vagrant/new-repos/8/monroe/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27249
+((/home/vagrant/new-repos/8/monroe/Tests/2-in.json /home/vagrant/new-repos/8/monroe/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/mount-baker/Tests/1-in.json /home/vagrant/new-repos/8/mount-baker/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27255
+(testing /home/vagrant/new-repos/8/mount-baker/Tests/2-in.json /home/vagrant/new-repos/8/mount-baker/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27257
+(testing /home/vagrant/new-repos/8/mount-baker/Tests/3-in.json /home/vagrant/new-repos/8/mount-baker/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27259
+((/home/vagrant/new-repos/8/mount-baker/Tests/1-in.json /home/vagrant/new-repos/8/mount-baker/Tests/1-out.json) (/home/vagrant/new-repos/8/mount-baker/Tests/2-in.json /home/vagrant/new-repos/8/mount-baker/Tests/2-out.json) (/home/vagrant/new-repos/8/mount-baker/Tests/3-in.json /home/vagrant/new-repos/8/mount-baker/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/mount-grace/Tests/3-in.json /home/vagrant/new-repos/8/mount-grace/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27263
+((/home/vagrant/new-repos/8/mount-grace/Tests/3-in.json /home/vagrant/new-repos/8/mount-grace/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/mount-tom/Tests/2-in.json /home/vagrant/new-repos/8/mount-tom/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27267
+((/home/vagrant/new-repos/8/mount-tom/Tests/2-in.json /home/vagrant/new-repos/8/mount-tom/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/mystic-lakes/Tests/1-in.json /home/vagrant/new-repos/8/mystic-lakes/Tests/1-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27271
+(testing /home/vagrant/new-repos/8/mystic-lakes/Tests/2-in.json /home/vagrant/new-repos/8/mystic-lakes/Tests/2-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27273
+((/home/vagrant/new-repos/8/mystic-lakes/Tests/1-in.json /home/vagrant/new-repos/8/mystic-lakes/Tests/1-out.json) (/home/vagrant/new-repos/8/mystic-lakes/Tests/2-in.json /home/vagrant/new-repos/8/mystic-lakes/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/new-repos/great-falls/8/xref)
+(testing /home/vagrant/new-repos/8/mystic-river/Tests/3-in.json /home/vagrant/new-repos/8/mystic-river/Tests/3-out.json)
+xtest: /home/vagrant/new-repos/great-falls/8/xref runs as 27277
+((/home/vagrant/new-repos/8/mystic-river/Tests/3-in.json /home/vagrant/new-repos/8/mystic-river/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))

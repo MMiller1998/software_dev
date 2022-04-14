@@ -1,0 +1,49 @@
+{
+  "width": 800,
+  "height": 800,
+  "cities": [
+    ["Washington, D.C.", [700, 400]],
+    ["Princeton", [725, 250]],
+    ["Boston", [750, 200]],
+    ["Helena", [100, 100]],
+    ["Kansas City", [300, 300]],
+    ["FillerCityWithMaxLength8,", [100, 700]]
+  ],
+  "connections": {
+    "Boston": {
+      "Princeton": {
+        "blue": 3
+      },
+      "Kansas City": {
+        "white": 4
+      },
+      "Helena": {
+        "green": 4
+      },
+      "Washington, D.C.": {
+        "red": 5
+      }
+    },
+    "Helena": {
+      "Kansas City": {
+        "green":  4
+      }
+    },
+    "FillerCityWithMaxLength8,": {
+      "Kansas City": {
+        "white": 5,
+        "blue": 5,
+        "red": 5,
+        "green": 5
+      }
+    },
+    "Kansas City" : {
+      "Princeton": {
+        "blue": 3
+      },
+      "Washington, D.C." : {
+        "red": 5
+      }
+    }
+  }
+}

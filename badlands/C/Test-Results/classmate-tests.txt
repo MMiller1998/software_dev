@@ -1,0 +1,5151 @@
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/ames-nowell/Tests/1-in.json /home/vagrant/repos/C/ames-nowell/Tests/1-out.json)
+((/home/vagrant/repos/C/ames-nowell/Tests/1-in.json /home/vagrant/repos/C/ames-nowell/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/angeles/Tests/3-in.json /home/vagrant/repos/C/angeles/Tests/3-out.json)
+((/home/vagrant/repos/C/angeles/Tests/3-in.json /home/vagrant/repos/C/angeles/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/angelina/Tests/1-in.json /home/vagrant/repos/C/angelina/Tests/1-out.json)
+(testing /home/vagrant/repos/C/angelina/Tests/2-in.json /home/vagrant/repos/C/angelina/Tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((a
+           .
+           (1000000000000000000000000000000000
+            (-77.9999999999
+             null
+             ()
+             #t
+             (#f #hasheq((null . (null null #hasheq())) (true . null))))
+            3
+            #hasheq((b . #hasheq((c . #hasheq()))))))))
+(*** expected)
+'(#hasheq((a
+           .
+           (#hasheq((b . #hasheq((c . #hasheq()))))
+            -3
+            ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+             #f
+             ()
+             null
+             77.9999999999)
+            -1000000000000000000000000000000000))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000)))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((a
+             .
+             (#hasheq((b . #hasheq((c . #hasheq()))))
+              -3
+              ((#hasheq((null . (#hasheq() null null)) (true . null)) #t)
+               #f
+               ()
+               null
+               -77.9999999999)
+              -1000000000000000000000000000000000))))))
+
+
+((/home/vagrant/repos/C/angelina/Tests/1-in.json /home/vagrant/repos/C/angelina/Tests/1-out.json))
+((passed 1) (total 2) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/apache/Tests/1-in.json /home/vagrant/repos/C/apache/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((Array . (-5 7 22.8))
+          (Boolean . #t)
+          (Double . 12.2212685)
+          (Nothing . null)
+          (Number . 8)
+          (String . "helloworld")
+          (massiveVal . 6546813548)))
+(*** expected)
+'(#hasheq((Array . (-22.8 -7 5))
+          (Boolean . #f)
+          (Double . -12.2212685)
+          (Nothing . null)
+          (Number . -8)
+          (String . "dlrowolleh")
+          (massiveVal . -6546813548)))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((Array . (22.8 -7 5))
+            (Boolean . #f)
+            (Double . 12.2212685)
+            (Nothing . null)
+            (Number . -8)
+            (String . "dlrowolleh")
+            (massiveVal . -6546813548)))))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/apalachicola/Tests/1-in.json /home/vagrant/repos/C/apalachicola/Tests/1-out.json)
+(testing /home/vagrant/repos/C/apalachicola/Tests/2-in.json /home/vagrant/repos/C/apalachicola/Tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(-234910485012
+  "hello"
+  ("one" "two" "three")
+  null
+  null
+  #hasheq((keyone . #hasheq((keyonea . 8199) (keyoneb . "yup")))
+          (keytwo . (1 -6 -18 0.135))
+          (keyzero . #f))
+  "hey"
+  (#f null ("no" "yes" 24590 #f) #hasheq((keythree . ()))))
+(*** expected)
+'(234910485012
+  "olleh"
+  ("eerht" "owt" "eno")
+  null
+  null
+  #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+          (keytwo . (-0.135 18 6 -1))
+          (keyzero . #t))
+  "yeh"
+  (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((plain fast with-newline escaped-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((plain fast with-space plain-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((plain fast with-space escaped-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((plain slow with-newline plain-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((plain slow with-newline escaped-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((plain slow with-space plain-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((plain slow with-space escaped-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((pretty fast with-newline plain-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((pretty fast with-newline escaped-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((pretty fast with-space plain-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((pretty fast with-space escaped-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((pretty slow with-newline plain-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((pretty slow with-newline escaped-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((pretty slow with-space plain-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t)))
+  ((pretty slow with-space escaped-unicode)
+   (234910485012
+    "olleh"
+    ("eerht" "owt" "eno")
+    null
+    null
+    #hasheq((keyone . #hasheq((keyonea . -8199) (keyoneb . "puy")))
+            (keytwo . (0.135 18 6 -1))
+            (keyzero . #t))
+    "yeh"
+    (#hasheq((keythree . ())) (#t -24590 "sey" "on") null #t))))
+
+
+(testing /home/vagrant/repos/C/apalachicola/Tests/3-in.json /home/vagrant/repos/C/apalachicola/Tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(null
+  #f
+  null
+  #t
+  #hasheq((keyzero . #t))
+  #hasheq((keyone . "boop"))
+  -3495792.333333
+  "beep"
+  #hasheq((keytwo . (#f #t #t #f)))
+  (5498635 "hullo" null #f #t ("omg" "yeah" "no") "yes"))
+(*** expected)
+'(null
+  #t
+  null
+  #f
+  #hasheq((keyzero . #f))
+  #hasheq((keyone . "poob"))
+  3495792.333333
+  "peeb"
+  #hasheq((keytwo . (#t #f #f #t)))
+  ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((plain fast with-newline escaped-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((plain fast with-space plain-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((plain fast with-space escaped-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((plain slow with-newline plain-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((plain slow with-newline escaped-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((plain slow with-space plain-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((plain slow with-space escaped-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((pretty fast with-newline plain-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((pretty fast with-newline escaped-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((pretty fast with-space plain-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((pretty fast with-space escaped-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((pretty slow with-newline plain-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((pretty slow with-newline escaped-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((pretty slow with-space plain-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635)))
+  ((pretty slow with-space escaped-unicode)
+   (null
+    #t
+    null
+    #f
+    #hasheq((keyzero . #f))
+    #hasheq((keyone . "poob"))
+    -3495792.333333
+    "peeb"
+    #hasheq((keytwo . (#t #f #f #t)))
+    ("sey" ("on" "haey" "gmo") #f #t null "olluh" -5498635))))
+
+
+((/home/vagrant/repos/C/apalachicola/Tests/1-in.json /home/vagrant/repos/C/apalachicola/Tests/1-out.json))
+((passed 1) (total 3) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/arapaho/Tests/1-in.json /home/vagrant/repos/C/arapaho/Tests/1-out.json)
+(testing /home/vagrant/repos/C/arapaho/Tests/3-in.json /home/vagrant/repos/C/arapaho/Tests/3-out.json)
+((/home/vagrant/repos/C/arapaho/Tests/1-in.json /home/vagrant/repos/C/arapaho/Tests/1-out.json) (/home/vagrant/repos/C/arapaho/Tests/3-in.json /home/vagrant/repos/C/arapaho/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/arches/Tests/2-in.json /home/vagrant/repos/C/arches/Tests/2-out.json)
+((/home/vagrant/repos/C/arches/Tests/2-in.json /home/vagrant/repos/C/arches/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/ashland/Tests/1-in.json /home/vagrant/repos/C/ashland/Tests/1-out.json)
+((/home/vagrant/repos/C/ashland/Tests/1-in.json /home/vagrant/repos/C/ashland/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/ashley/Tests/2-in.json /home/vagrant/repos/C/ashley/Tests/2-out.json)
+(testing /home/vagrant/repos/C/ashley/Tests/3-in.json /home/vagrant/repos/C/ashley/Tests/3-out.json)
+((/home/vagrant/repos/C/ashley/Tests/2-in.json /home/vagrant/repos/C/ashley/Tests/2-out.json) (/home/vagrant/repos/C/ashley/Tests/3-in.json /home/vagrant/repos/C/ashley/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/beartown/Tests/1-in.json /home/vagrant/repos/C/beartown/Tests/1-out.json)
+((/home/vagrant/repos/C/beartown/Tests/1-in.json /home/vagrant/repos/C/beartown/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/beaver-brook/Tests/2-in.json /home/vagrant/repos/C/beaver-brook/Tests/2-out.json)
+((/home/vagrant/repos/C/beaver-brook/Tests/2-in.json /home/vagrant/repos/C/beaver-brook/Tests/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/bienville/Tests/1-in.json /home/vagrant/repos/C/bienville/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(("asdf" 1 null #hasheq((hello . "world")) #f 2.2 -1.2))
+(*** expected)
+'((1.2 -2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa"))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((plain fast with-newline escaped-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((plain fast with-space plain-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((plain fast with-space escaped-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((plain slow with-newline plain-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((plain slow with-newline escaped-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((plain slow with-space plain-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((plain slow with-space escaped-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((pretty fast with-newline plain-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((pretty fast with-newline escaped-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((pretty fast with-space plain-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((pretty fast with-space escaped-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((pretty slow with-newline plain-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((pretty slow with-newline escaped-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((pretty slow with-space plain-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa")))
+  ((pretty slow with-space escaped-unicode)
+   ((-1.2 2.2 #t #hasheq((hello . "dlrow")) null -1 "fdsa"))))
+
+
+(testing /home/vagrant/repos/C/bienville/Tests/2-in.json /home/vagrant/repos/C/bienville/Tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(1.1111111111111112e+299)
+(*** expected)
+'(-1.1111111111111112e+299)
+(*** but received)
+'(((plain fast with-newline plain-unicode) (1.1111111111111112e+299))
+  ((plain fast with-newline escaped-unicode) (1.1111111111111112e+299))
+  ((plain fast with-space plain-unicode) (1.1111111111111112e+299))
+  ((plain fast with-space escaped-unicode) (1.1111111111111112e+299))
+  ((plain slow with-newline plain-unicode) (1.1111111111111112e+299))
+  ((plain slow with-newline escaped-unicode) (1.1111111111111112e+299))
+  ((plain slow with-space plain-unicode) (1.1111111111111112e+299))
+  ((plain slow with-space escaped-unicode) (1.1111111111111112e+299))
+  ((pretty fast with-newline plain-unicode) (1.1111111111111112e+299))
+  ((pretty fast with-newline escaped-unicode) (1.1111111111111112e+299))
+  ((pretty fast with-space plain-unicode) (1.1111111111111112e+299))
+  ((pretty fast with-space escaped-unicode) (1.1111111111111112e+299))
+  ((pretty slow with-newline plain-unicode) (1.1111111111111112e+299))
+  ((pretty slow with-newline escaped-unicode) (1.1111111111111112e+299))
+  ((pretty slow with-space plain-unicode) (1.1111111111111112e+299))
+  ((pretty slow with-space escaped-unicode) (1.1111111111111112e+299)))
+
+
+(testing /home/vagrant/repos/C/bienville/Tests/3-in.json /home/vagrant/repos/C/bienville/Tests/3-out.json)
+((/home/vagrant/repos/C/bienville/Tests/3-in.json /home/vagrant/repos/C/bienville/Tests/3-out.json))
+((passed 1) (total 3) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/big-bend/Tests/2-in.json /home/vagrant/repos/C/big-bend/Tests/2-out.json)
+(testing /home/vagrant/repos/C/big-bend/Tests/3-in.json /home/vagrant/repos/C/big-bend/Tests/3-out.json)
+((/home/vagrant/repos/C/big-bend/Tests/2-in.json /home/vagrant/repos/C/big-bend/Tests/2-out.json) (/home/vagrant/repos/C/big-bend/Tests/3-in.json /home/vagrant/repos/C/big-bend/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/biscayne/Tests/1-in.json /home/vagrant/repos/C/biscayne/Tests/1-out.json)
+(testing /home/vagrant/repos/C/biscayne/Tests/2-in.json /home/vagrant/repos/C/biscayne/Tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((key1 . (3.4 3.5 #hasheq() 0)) (key2 . ()) (key3 . "a"))
+  "abcdefghij"
+  -23
+  #t
+  null)
+(*** expected)
+'(#hasheq((key1 . (0 #hasheq() -3.5 -3.4)) (key2 . ()) (key3 . "a"))
+  "jihgfedcba"
+  23
+  #f
+  null)
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((key1 . (0 #hasheq() 3.5 3.4)) (key2 . ()) (key3 . "a"))
+    "jihgfedcba"
+    23
+    #f
+    null)))
+
+
+(testing /home/vagrant/repos/C/biscayne/Tests/3-in.json /home/vagrant/repos/C/biscayne/Tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((#hasheq((key1 . -3.141592653589793) (key2 . "michael")) 2293485234575467.0)
+   ()
+   #f
+   170000000000.0))
+(*** expected)
+'((-170000000000.0
+   #t
+   ()
+   (-2293485234575467.0
+    #hasheq((key1 . 3.141592653589793) (key2 . "leahcim")))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((plain fast with-newline escaped-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((plain fast with-space plain-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((plain fast with-space escaped-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((plain slow with-newline plain-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((plain slow with-newline escaped-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((plain slow with-space plain-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((plain slow with-space escaped-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((pretty fast with-newline plain-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((pretty fast with-newline escaped-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((pretty fast with-space plain-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((pretty fast with-space escaped-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((pretty slow with-newline plain-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((pretty slow with-newline escaped-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((pretty slow with-space plain-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim"))))))
+  ((pretty slow with-space escaped-unicode)
+   ((170000000000.0
+     #t
+     ()
+     (2293485234575467.0
+      #hasheq((key1 . -3.141592653589793) (key2 . "leahcim")))))))
+
+
+((/home/vagrant/repos/C/biscayne/Tests/1-in.json /home/vagrant/repos/C/biscayne/Tests/1-out.json))
+((passed 1) (total 3) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/bitterroot/Tests/1-in.json /home/vagrant/repos/C/bitterroot/Tests/1-out.json)
+(testing /home/vagrant/repos/C/bitterroot/Tests/2-in.json /home/vagrant/repos/C/bitterroot/Tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((a . "string")
+          (b . 54)
+          (c . 5.25)
+          (d . #f)
+          (e . (1 2 3))
+          (f . null)
+          (g
+           .
+           #hasheq((h . "hello")
+                   (i . -42)
+                   (j . -0.5)
+                   (k . #t)
+                   (l . ("one" "two" "three"))
+                   (m . null)
+                   (n . #hasheq((o . "bye")))))))
+(*** expected)
+'(#hasheq((a . "gnirts")
+          (b . -54)
+          (c . -5.25)
+          (d . #t)
+          (e . (-3 -2 -1))
+          (f . null)
+          (g
+           .
+           #hasheq((h . "olleh")
+                   (i . 42)
+                   (j . 0.5)
+                   (k . #f)
+                   (l . ("eerht" "owt" "eno"))
+                   (m . null)
+                   (n . #hasheq((o . "eyb")))))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb"))))))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((a . "gnirts")
+            (b . -54)
+            (c . 5.25)
+            (d . #t)
+            (e . (-3 -2 -1))
+            (f . null)
+            (g
+             .
+             #hasheq((h . "olleh")
+                     (i . 42)
+                     (j . -0.5)
+                     (k . #f)
+                     (l . ("eerht" "owt" "eno"))
+                     (m . null)
+                     (n . #hasheq((o . "eyb")))))))))
+
+
+((/home/vagrant/repos/C/bitterroot/Tests/1-in.json /home/vagrant/repos/C/bitterroot/Tests/1-out.json))
+((passed 1) (total 2) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/black-hills/Tests/1-in.json /home/vagrant/repos/C/black-hills/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(-1.23e+23)
+(*** expected)
+'(1.23e+23)
+(*** but received)
+'(((plain fast with-newline plain-unicode) (-1.23e+23))
+  ((plain fast with-newline escaped-unicode) (-1.23e+23))
+  ((plain fast with-space plain-unicode) (-1.23e+23))
+  ((plain fast with-space escaped-unicode) (-1.23e+23))
+  ((plain slow with-newline plain-unicode) (-1.23e+23))
+  ((plain slow with-newline escaped-unicode) (-1.23e+23))
+  ((plain slow with-space plain-unicode) (-1.23e+23))
+  ((plain slow with-space escaped-unicode) (-1.23e+23))
+  ((pretty fast with-newline plain-unicode) (-1.23e+23))
+  ((pretty fast with-newline escaped-unicode) (-1.23e+23))
+  ((pretty fast with-space plain-unicode) (-1.23e+23))
+  ((pretty fast with-space escaped-unicode) (-1.23e+23))
+  ((pretty slow with-newline plain-unicode) (-1.23e+23))
+  ((pretty slow with-newline escaped-unicode) (-1.23e+23))
+  ((pretty slow with-space plain-unicode) (-1.23e+23))
+  ((pretty slow with-space escaped-unicode) (-1.23e+23)))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/boise/Tests/1-in.json /home/vagrant/repos/C/boise/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((age . 26)
+          (name . "bill")
+          (sub_object . #hasheq((also . #t) (and . 45) (other . "value")))
+          (vals . (null #t #f 54.8 -34))))
+(*** expected)
+'(#hasheq((age . -26)
+          (name . "llib")
+          (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+          (vals . (34 -54.8 #t #f null))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null)))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((age . -26)
+            (name . "llib")
+            (sub_object . #hasheq((also . #f) (and . -45) (other . "eulav")))
+            (vals . (34 54.8 #t #f null))))))
+
+
+(testing /home/vagrant/repos/C/boise/Tests/2-in.json /home/vagrant/repos/C/boise/Tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((age . 33)
+          (lists
+           .
+           (("random" "strings" "list")
+            (12.2 -9.5 7 -4 0)
+            (#t null #f)
+            (#hasheq((list1
+                      .
+                      (-2 #f null "entry" #hasheq((object_ls . "deep"))))
+                     (str1 . "couch")
+                     (val1 . 29.123))
+             #hasheq((list1
+                      .
+                      (5.392 #t null "item" #hasheq((object_ls . "far"))))
+                     (str1 . "carpet")
+                     (val1 . -12)))))
+          (name . "steve")))
+(*** expected)
+'(#hasheq((age . -33)
+          (lists
+           .
+           ((#hasheq((list1
+                      .
+                      (#hasheq((object_ls . "raf")) "meti" null #f -5.392))
+                     (str1 . "teprac")
+                     (val1 . 12))
+             #hasheq((list1
+                      .
+                      (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                     (str1 . "hcuoc")
+                     (val1 . -29.123)))
+            (#t null #f)
+            (0 4 -7 9.5 -12.2)
+            ("tsil" "sgnirts" "modnar")))
+          (name . "evets")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets"))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((age . -33)
+            (lists
+             .
+             ((#hasheq((list1
+                        .
+                        (#hasheq((object_ls . "raf")) "meti" null #f 5.392))
+                       (str1 . "teprac")
+                       (val1 . 12))
+               #hasheq((list1
+                        .
+                        (#hasheq((object_ls . "peed")) "yrtne" null #t 2))
+                       (str1 . "hcuoc")
+                       (val1 . 29.123)))
+              (#t null #f)
+              (0 4 -7 -9.5 12.2)
+              ("tsil" "sgnirts" "modnar")))
+            (name . "evets")))))
+
+
+()
+((passed 0) (total 2) (partial-score 0))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/borderland/Tests/1-in.json /home/vagrant/repos/C/borderland/Tests/1-out.json)
+((/home/vagrant/repos/C/borderland/Tests/1-in.json /home/vagrant/repos/C/borderland/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/breakheart/Tests/1-in.json /home/vagrant/repos/C/breakheart/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((hello . "world")
+          (obj
+           .
+           #hasheq((hello . "world")
+                   (numbers
+                    .
+                    (1.0
+                     2.0
+                     "disgust"
+                     4.0000000000001
+                     #hasheq((number . 123))))
+                   (random
+                    .
+                    (#hasheq((bar . "baz") (foo . "bar"))
+                     #hasheq((abc . "def") (ghi . "jkl"))))))))
+(*** expected)
+'(#hasheq((hello . "dlrow")
+          (obj
+           .
+           #hasheq((hello . "dlrow")
+                   (numbers
+                    .
+                    (#hasheq((number . -123))
+                     -4.0000000000001
+                     "tsugsid"
+                     -2.0
+                     -1.0))
+                   (random
+                    .
+                    (#hasheq((abc . "fed") (ghi . "lkj"))
+                     #hasheq((bar . "zab") (foo . "rab"))))))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab")))))))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((hello . "dlrow")
+            (obj
+             .
+             #hasheq((hello . "dlrow")
+                     (numbers
+                      .
+                      (#hasheq((number . -123))
+                       4.0000000000001
+                       "tsugsid"
+                       2.0
+                       1.0))
+                     (random
+                      .
+                      (#hasheq((abc . "fed") (ghi . "lkj"))
+                       #hasheq((bar . "zab") (foo . "rab"))))))))))
+
+
+(testing /home/vagrant/repos/C/breakheart/Tests/2-in.json /home/vagrant/repos/C/breakheart/Tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((foo . #hasheq((bar . "baz") (baz . "bar") (test . "tested")))
+          (foobar . #hasheq((barbaz . ("this" "is" "a" "bunch" "of" "stuff"))))
+          (what
+           .
+           #hasheq((not . (#t #f "foo" "bar"))
+                   (okay . (null -0.00202020202 100202030))))))
+(*** expected)
+'(#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+          (foobar . #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+          (what
+           .
+           #hasheq((not . ("rab" "oof" #t #f))
+                   (okay . (-100202030 0.00202020202 null))))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null)))))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((foo . #hasheq((bar . "zab") (baz . "rab") (test . "detset")))
+            (foobar
+             .
+             #hasheq((barbaz . ("ffuts" "fo" "hcnub" "a" "si" "siht"))))
+            (what
+             .
+             #hasheq((not . ("rab" "oof" #t #f))
+                     (okay . (-100202030 -0.00202020202 null))))))))
+
+
+()
+((passed 0) (total 2) (partial-score 0))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/brook-farm/Tests/3-in.json /home/vagrant/repos/C/brook-farm/Tests/3-out.json)
+((/home/vagrant/repos/C/brook-farm/Tests/3-in.json /home/vagrant/repos/C/brook-farm/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/canyonlands/Tests/3-in.json /home/vagrant/repos/C/canyonlands/Tests/3-out.json)
+((/home/vagrant/repos/C/canyonlands/Tests/3-in.json /home/vagrant/repos/C/canyonlands/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/cape-cod/Tests/3-in.json /home/vagrant/repos/C/cape-cod/Tests/3-out.json)
+((/home/vagrant/repos/C/cape-cod/Tests/3-in.json /home/vagrant/repos/C/cape-cod/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/caribou/Tests/1-in.json /home/vagrant/repos/C/caribou/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((alexis . #hasheq((computer . "science") (inside . null)))
+          (and . #f)
+          (connie . -0.01)))
+(*** expected)
+'(#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+          (and . #t)
+          (connie . 0.01)))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01)))))
+
+
+(testing /home/vagrant/repos/C/caribou/Tests/2-in.json /home/vagrant/repos/C/caribou/Tests/2-out.json)
+(testing /home/vagrant/repos/C/caribou/Tests/3-in.json /home/vagrant/repos/C/caribou/Tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((2-in . ("hello" 23 #f ("inside" null)))
+          (alexis . #hasheq((computer . "science") (inside . null)))
+          (and . #f)
+          (connie . -0.01)))
+(*** expected)
+'(#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+          (alexis . #hasheq((computer . "ecneics") (inside . null)))
+          (and . #t)
+          (connie . 0.01)))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((2-in . ((null "edisni") #t -23 "olleh"))
+            (alexis . #hasheq((computer . "ecneics") (inside . null)))
+            (and . #t)
+            (connie . -0.01)))))
+
+
+((/home/vagrant/repos/C/caribou/Tests/2-in.json /home/vagrant/repos/C/caribou/Tests/2-out.json))
+((passed 1) (total 3) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/carson/Tests/1-in.json /home/vagrant/repos/C/carson/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((key1 . "hello") (key2 . 32.1)))
+(*** expected)
+'(#hasheq((key1 . "olleh") (key2 . -32.1)))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((key1 . "olleh") (key2 . 32.1)))))
+
+
+(testing /home/vagrant/repos/C/carson/Tests/2-in.json /home/vagrant/repos/C/carson/Tests/2-out.json)
+((/home/vagrant/repos/C/carson/Tests/2-in.json /home/vagrant/repos/C/carson/Tests/2-out.json))
+((passed 1) (total 2) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/cherokee/Tests/1-in.json /home/vagrant/repos/C/cherokee/Tests/1-out.json)
+(testing /home/vagrant/repos/C/cherokee/Tests/2-in.json /home/vagrant/repos/C/cherokee/Tests/2-out.json)
+(testing /home/vagrant/repos/C/cherokee/Tests/3-in.json /home/vagrant/repos/C/cherokee/Tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((eighth . 987654321987654321987654321987654321)
+          (fifth . -0.8675309)
+          (first . 0)
+          (fourth . -4000.0)
+          (second . 2)
+          (seventh . 7.0)
+          (sixth . 0)
+          (third . 0.3)))
+(*** expected)
+'(#hasheq((eighth . -987654321987654321987654321987654321)
+          (fifth . 0.8675309)
+          (first . 0)
+          (fourth . 4000.0)
+          (second . -2)
+          (seventh . -7.0)
+          (sixth . 0)
+          (third . -0.3)))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((eighth . -987654321987654321987654321987654321)
+            (fifth . -0.8675309)
+            (first . 0)
+            (fourth . -4000.0)
+            (second . -2)
+            (seventh . 7.0)
+            (sixth . 0)
+            (third . 0.3)))))
+
+
+((/home/vagrant/repos/C/cherokee/Tests/1-in.json /home/vagrant/repos/C/cherokee/Tests/1-out.json) (/home/vagrant/repos/C/cherokee/Tests/2-in.json /home/vagrant/repos/C/cherokee/Tests/2-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/chugach/Tests/2-in.json /home/vagrant/repos/C/chugach/Tests/2-out.json)
+(testing /home/vagrant/repos/C/chugach/Tests/3-in.json /home/vagrant/repos/C/chugach/Tests/3-out.json)
+((/home/vagrant/repos/C/chugach/Tests/2-in.json /home/vagrant/repos/C/chugach/Tests/2-out.json) (/home/vagrant/repos/C/chugach/Tests/3-in.json /home/vagrant/repos/C/chugach/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/cibola/Tests/1-in.json /home/vagrant/repos/C/cibola/Tests/1-out.json)
+(testing /home/vagrant/repos/C/cibola/Tests/2-in.json /home/vagrant/repos/C/cibola/Tests/2-out.json)
+(testing /home/vagrant/repos/C/cibola/Tests/3-in.json /home/vagrant/repos/C/cibola/Tests/3-out.json)
+((/home/vagrant/repos/C/cibola/Tests/1-in.json /home/vagrant/repos/C/cibola/Tests/1-out.json) (/home/vagrant/repos/C/cibola/Tests/2-in.json /home/vagrant/repos/C/cibola/Tests/2-out.json) (/home/vagrant/repos/C/cibola/Tests/3-in.json /home/vagrant/repos/C/cibola/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/clearwater/Tests/1-in.json /home/vagrant/repos/C/clearwater/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'("helloworld" 1 2 3 #f null (1 2 3.5) 2.5 #hasheq((alice . "cat")))
+(*** expected)
+'("dlrowolleh" -1 -2 -3 #t null (-3.5 -2 -1) -2.5 #hasheq((alice . "tac")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((plain fast with-newline escaped-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((plain fast with-space plain-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((plain fast with-space escaped-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((plain slow with-newline plain-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((plain slow with-newline escaped-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((plain slow with-space plain-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((plain slow with-space escaped-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((pretty fast with-newline plain-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((pretty fast with-newline escaped-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((pretty fast with-space plain-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((pretty fast with-space escaped-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((pretty slow with-newline plain-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((pretty slow with-newline escaped-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((pretty slow with-space plain-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac"))))
+  ((pretty slow with-space escaped-unicode)
+   ("dlrowolleh" -1 -2 -3 #t null (3.5 -2 -1) 2.5 #hasheq((alice . "tac")))))
+
+
+(testing /home/vagrant/repos/C/clearwater/Tests/3-in.json /home/vagrant/repos/C/clearwater/Tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((#hasheq((class1 . #hasheq((students . ("bob" "alice")) (temp . 71.8))))
+   #hasheq((class2
+            .
+            #hasheq((fun . #f)
+                    (students . ("becky" "al"))
+                    (teacher . null))))))
+(*** expected)
+'((#hasheq((class2
+            .
+            #hasheq((fun . #t) (students . ("la" "ykceb")) (teacher . null))))
+   #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . -71.8))))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((plain fast with-newline escaped-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((plain fast with-space plain-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((plain fast with-space escaped-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((plain slow with-newline plain-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((plain slow with-newline escaped-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((plain slow with-space plain-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((plain slow with-space escaped-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((pretty fast with-newline plain-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((pretty fast with-newline escaped-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((pretty fast with-space plain-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((pretty fast with-space escaped-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((pretty slow with-newline plain-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((pretty slow with-newline escaped-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((pretty slow with-space plain-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1 . #hasheq((students . ("ecila" "bob")) (temp . 71.8)))))))
+  ((pretty slow with-space escaped-unicode)
+   ((#hasheq((class2
+              .
+              #hasheq((fun . #t)
+                      (students . ("la" "ykceb"))
+                      (teacher . null))))
+     #hasheq((class1
+              .
+              #hasheq((students . ("ecila" "bob")) (temp . 71.8))))))))
+
+
+()
+((passed 0) (total 2) (partial-score 0))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/cleveland/Tests/1-in.json /home/vagrant/repos/C/cleveland/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#t 0 0.5 "a" (1 2) #hasheq((hello . "world")))
+(*** expected)
+'(#f 0 -0.5 "a" (-2 -1) #hasheq((hello . "dlrow")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((plain fast with-newline escaped-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((plain fast with-space plain-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((plain fast with-space escaped-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((plain slow with-newline plain-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((plain slow with-newline escaped-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((plain slow with-space plain-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((plain slow with-space escaped-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((pretty fast with-newline plain-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((pretty fast with-newline escaped-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((pretty fast with-space plain-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((pretty fast with-space escaped-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((pretty slow with-newline plain-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((pretty slow with-newline escaped-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((pretty slow with-space plain-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow"))))
+  ((pretty slow with-space escaped-unicode)
+   (#f 0 0.5 "a" (-2 -1) #hasheq((hello . "dlrow")))))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/cochituate/Tests/2-in.json /home/vagrant/repos/C/cochituate/Tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((hello . "cam")
+          (hi
+           .
+           #hasheq((Cody . null)
+                   (Maisy . "toemuncher")
+                   (Oreo . #t)
+                   (ben . ("lerner" "hamburger" "i" "miss" "my" "cat"))
+                   (dan
+                    .
+                    #hasheq((mac . "andcheese")
+                            (once
+                             .
+                             #hasheq((told
+                                      .
+                                      ("me"
+                                       "the"
+                                       "world"
+                                       "was"
+                                       "gonna"
+                                       "roll"
+                                       "me"))))
+                            (please . "somebody")
+                            (ted . #f)
+                            (theman . (-2 8 3.14 99 42069))
+                            (true . "killer")))))
+          (yolo . 7)))
+(*** expected)
+'(#hasheq((hello . "mac")
+          (hi
+           .
+           #hasheq((Cody . null)
+                   (Maisy . "rehcnumeot")
+                   (Oreo . #f)
+                   (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                   (dan
+                    .
+                    #hasheq((mac . "eseehcdna")
+                            (once
+                             .
+                             #hasheq((told
+                                      .
+                                      ("em"
+                                       "llor"
+                                       "annog"
+                                       "saw"
+                                       "dlrow"
+                                       "eht"
+                                       "em"))))
+                            (please . "ydobemos")
+                            (ted . #t)
+                            (theman . (-42069 -99 -3.14 -8 2))
+                            (true . "rellik")))))
+          (yolo . -7)))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((hello . "mac")
+            (hi
+             .
+             #hasheq((Cody . null)
+                     (Maisy . "rehcnumeot")
+                     (Oreo . #f)
+                     (ben . ("tac" "ym" "ssim" "i" "regrubmah" "renrel"))
+                     (dan
+                      .
+                      #hasheq((mac . "eseehcdna")
+                              (once
+                               .
+                               #hasheq((told
+                                        .
+                                        ("em"
+                                         "llor"
+                                         "annog"
+                                         "saw"
+                                         "dlrow"
+                                         "eht"
+                                         "em"))))
+                              (please . "ydobemos")
+                              (ted . #t)
+                              (theman . (-42069 -99 3.14 -8 2))
+                              (true . "rellik")))))
+            (yolo . -7)))))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/coconino/Tests/1-in.json /home/vagrant/repos/C/coconino/Tests/1-out.json)
+(testing /home/vagrant/repos/C/coconino/Tests/2-in.json /home/vagrant/repos/C/coconino/Tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((1
+   2
+   3
+   "a"
+   "b"
+   "c"
+   #hasheq((dict . #hasheq((xyz . ())))
+           (hello . 1234)
+           (software . "dev")
+           (world . (88 99 10)))
+   99.99))
+(*** expected)
+'((-99.99
+   #hasheq((dict . #hasheq((xyz . ())))
+           (hello . -1234)
+           (software . "ved")
+           (world . (-10 -99 -88)))
+   "c"
+   "b"
+   "a"
+   -3
+   -2
+   -1))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((plain fast with-newline escaped-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((plain fast with-space plain-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((plain fast with-space escaped-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((plain slow with-newline plain-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((plain slow with-newline escaped-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((plain slow with-space plain-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((plain slow with-space escaped-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((pretty fast with-newline plain-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((pretty fast with-newline escaped-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((pretty fast with-space plain-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((pretty fast with-space escaped-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((pretty slow with-newline plain-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((pretty slow with-newline escaped-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((pretty slow with-space plain-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1)))
+  ((pretty slow with-space escaped-unicode)
+   ((99.99
+     #hasheq((dict . #hasheq((xyz . ())))
+             (hello . -1234)
+             (software . "ved")
+             (world . (-10 -99 -88)))
+     "c"
+     "b"
+     "a"
+     -3
+     -2
+     -1))))
+
+
+(testing /home/vagrant/repos/C/coconino/Tests/3-in.json /home/vagrant/repos/C/coconino/Tests/3-out.json)
+((/home/vagrant/repos/C/coconino/Tests/1-in.json /home/vagrant/repos/C/coconino/Tests/1-out.json) (/home/vagrant/repos/C/coconino/Tests/3-in.json /home/vagrant/repos/C/coconino/Tests/3-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/colville/Tests/1-in.json /home/vagrant/repos/C/colville/Tests/1-out.json)
+(testing /home/vagrant/repos/C/colville/Tests/2-in.json /home/vagrant/repos/C/colville/Tests/2-out.json)
+(testing /home/vagrant/repos/C/colville/Tests/3-in.json /home/vagrant/repos/C/colville/Tests/3-out.json)
+((/home/vagrant/repos/C/colville/Tests/1-in.json /home/vagrant/repos/C/colville/Tests/1-out.json) (/home/vagrant/repos/C/colville/Tests/2-in.json /home/vagrant/repos/C/colville/Tests/2-out.json) (/home/vagrant/repos/C/colville/Tests/3-in.json /home/vagrant/repos/C/colville/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/conecuh/Tests/1-in.json /home/vagrant/repos/C/conecuh/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'("hello"
+  72
+  -38.6
+  #f
+  null
+  (1 2 3)
+  ("abcd" "edfg" "hijk")
+  #hasheq((a . #t) (b . 1) (c . ("az" "by" "cx"))))
+(*** expected)
+'("olleh"
+  -72
+  38.6
+  #t
+  null
+  (-3 -2 -1)
+  ("kjih" "gfde" "dcba")
+  #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za"))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((plain fast with-newline escaped-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((plain fast with-space plain-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((plain fast with-space escaped-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((plain slow with-newline plain-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((plain slow with-newline escaped-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((plain slow with-space plain-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((plain slow with-space escaped-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((pretty fast with-newline plain-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((pretty fast with-newline escaped-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((pretty fast with-space plain-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((pretty fast with-space escaped-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((pretty slow with-newline plain-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((pretty slow with-newline escaped-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((pretty slow with-space plain-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za")))))
+  ((pretty slow with-space escaped-unicode)
+   ("olleh"
+    -72
+    -38.6
+    #t
+    null
+    (-3 -2 -1)
+    ("kjih" "gfde" "dcba")
+    #hasheq((a . #f) (b . -1) (c . ("xc" "yb" "za"))))))
+
+
+(testing /home/vagrant/repos/C/conecuh/Tests/2-in.json /home/vagrant/repos/C/conecuh/Tests/2-out.json)
+((/home/vagrant/repos/C/conecuh/Tests/2-in.json /home/vagrant/repos/C/conecuh/Tests/2-out.json))
+((passed 1) (total 2) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/congaree/Tests/1-in.json /home/vagrant/repos/C/congaree/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((a . #t)
+          (b . 27.5)
+          (c . -84)
+          (d . null)
+          (e . "volcano")
+          (f . #hasheq((f0 . #f) (f1 . "great") (f2 . 11.0)))
+          (g . (1 -2 7 9))))
+(*** expected)
+'(#hasheq((a . #f)
+          (b . -27.5)
+          (c . 84)
+          (d . null)
+          (e . "onaclov")
+          (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . -11.0)))
+          (g . (-9 -7 2 -1))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1)))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((a . #f)
+            (b . 27.5)
+            (c . 84)
+            (d . null)
+            (e . "onaclov")
+            (f . #hasheq((f0 . #t) (f1 . "taerg") (f2 . 11.0)))
+            (g . (-9 -7 2 -1))))))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/coronado/Tests/2-in.json /home/vagrant/repos/C/coronado/Tests/2-out.json)
+(testing /home/vagrant/repos/C/coronado/Tests/3-in.json /home/vagrant/repos/C/coronado/Tests/3-out.json)
+((/home/vagrant/repos/C/coronado/Tests/2-in.json /home/vagrant/repos/C/coronado/Tests/2-out.json) (/home/vagrant/repos/C/coronado/Tests/3-in.json /home/vagrant/repos/C/coronado/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/croatan/Tests/2-in.json /home/vagrant/repos/C/croatan/Tests/2-out.json)
+(testing /home/vagrant/repos/C/croatan/Tests/3-in.json /home/vagrant/repos/C/croatan/Tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((array1 . ((1 2 3) (-4.1 -5.2 -6.3 "hello")))
+          (json1
+           .
+           #hasheq((a
+                    .
+                    #hasheq((json2 . #hasheq((value1 . 4) (value2 . "four")))))
+                   (b . #hasheq((value3 . null)))
+                   (c . null)
+                   (d . "errorlol")))
+          (lastvalue . null)))
+(*** expected)
+'(#hasheq((array1 . (("olleh" 6.3 5.2 4.1) (-3 -2 -1)))
+          (json1
+           .
+           #hasheq((a
+                    .
+                    #hasheq((json2
+                             .
+                             #hasheq((value1 . -4) (value2 . "ruof")))))
+                   (b . #hasheq((value3 . null)))
+                   (c . null)
+                   (d . "lolrorre")))
+          (lastvalue . null)))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((array1 . (("olleh" -6.3 -5.2 -4.1) (-3 -2 -1)))
+            (json1
+             .
+             #hasheq((a
+                      .
+                      #hasheq((json2
+                               .
+                               #hasheq((value1 . -4) (value2 . "ruof")))))
+                     (b . #hasheq((value3 . null)))
+                     (c . null)
+                     (d . "lolrorre")))
+            (lastvalue . null)))))
+
+
+((/home/vagrant/repos/C/croatan/Tests/2-in.json /home/vagrant/repos/C/croatan/Tests/2-out.json))
+((passed 1) (total 2) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/cutler-park/Tests/1-in.json /home/vagrant/repos/C/cutler-park/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((a . "abc")
+          (abc . 54)
+          (c . (1 2 null (9 8)))
+          (cbd . #hasheq((x . -5.5) (y . null)))))
+(*** expected)
+'(#hasheq((a . "cba")
+          (abc . -54)
+          (c . ((-8 -9) null -2 -1))
+          (cbd . #hasheq((x . 5.5) (y . null)))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null))))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((a . "cba")
+            (abc . -54)
+            (c . ((-8 -9) null -2 -1))
+            (cbd . #hasheq((x . -5.5) (y . null)))))))
+
+
+(testing /home/vagrant/repos/C/cutler-park/Tests/2-in.json /home/vagrant/repos/C/cutler-park/Tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((56.5
+   10
+   (1 2 3)
+   #hasheq((a . #hasheq((b . #hasheq((c . (4 null #t)))))))
+   #f
+   ()
+   "xy"))
+(*** expected)
+'(("yx"
+   ()
+   #t
+   #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+   (-3 -2 -1)
+   -10
+   -56.5))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((plain fast with-newline escaped-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((plain fast with-space plain-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((plain fast with-space escaped-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((plain slow with-newline plain-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((plain slow with-newline escaped-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((plain slow with-space plain-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((plain slow with-space escaped-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((pretty fast with-newline plain-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((pretty fast with-newline escaped-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((pretty fast with-space plain-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((pretty fast with-space escaped-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((pretty slow with-newline plain-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((pretty slow with-newline escaped-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((pretty slow with-space plain-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5)))
+  ((pretty slow with-space escaped-unicode)
+   (("yx"
+     ()
+     #t
+     #hasheq((a . #hasheq((b . #hasheq((c . (#f null -4)))))))
+     (-3 -2 -1)
+     -10
+     56.5))))
+
+
+(testing /home/vagrant/repos/C/cutler-park/Tests/3-in.json /home/vagrant/repos/C/cutler-park/Tests/3-out.json)
+((/home/vagrant/repos/C/cutler-park/Tests/3-in.json /home/vagrant/repos/C/cutler-park/Tests/3-out.json))
+((passed 1) (total 3) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/daniel-boone/Tests/1-in.json /home/vagrant/repos/C/daniel-boone/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((a . (1 2.501 "apple" "blue" #t))
+          (b
+           .
+           #hasheq((c . "green")
+                   (d . "false")
+                   (e . #hasheq((f . #f) (g . null)))
+                   (h . ("at" "ba"))))))
+(*** expected)
+'(#hasheq((a . (#f "eulb" "elppa" -2.501 -1))
+          (b
+           .
+           #hasheq((c . "neerg")
+                   (d . "eslaf")
+                   (e . #hasheq((f . #t) (g . null)))
+                   (h . ("ab" "ta"))))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta")))))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((a . (#f "eulb" "elppa" 2.501 -1))
+            (b
+             .
+             #hasheq((c . "neerg")
+                     (d . "eslaf")
+                     (e . #hasheq((f . #t) (g . null)))
+                     (h . ("ab" "ta"))))))))
+
+
+(testing /home/vagrant/repos/C/daniel-boone/Tests/2-in.json /home/vagrant/repos/C/daniel-boone/Tests/2-out.json)
+(testing /home/vagrant/repos/C/daniel-boone/Tests/3-in.json /home/vagrant/repos/C/daniel-boone/Tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(10002437.658 #f)
+(*** expected)
+'(-10002437.658 #t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) (10002437.658 #t))
+  ((plain fast with-newline escaped-unicode) (10002437.658 #t))
+  ((plain fast with-space plain-unicode) (10002437.658 #t))
+  ((plain fast with-space escaped-unicode) (10002437.658 #t))
+  ((plain slow with-newline plain-unicode) (10002437.658 #t))
+  ((plain slow with-newline escaped-unicode) (10002437.658 #t))
+  ((plain slow with-space plain-unicode) (10002437.658 #t))
+  ((plain slow with-space escaped-unicode) (10002437.658 #t))
+  ((pretty fast with-newline plain-unicode) (10002437.658 #t))
+  ((pretty fast with-newline escaped-unicode) (10002437.658 #t))
+  ((pretty fast with-space plain-unicode) (10002437.658 #t))
+  ((pretty fast with-space escaped-unicode) (10002437.658 #t))
+  ((pretty slow with-newline plain-unicode) (10002437.658 #t))
+  ((pretty slow with-newline escaped-unicode) (10002437.658 #t))
+  ((pretty slow with-space plain-unicode) (10002437.658 #t))
+  ((pretty slow with-space escaped-unicode) (10002437.658 #t)))
+
+
+((/home/vagrant/repos/C/daniel-boone/Tests/2-in.json /home/vagrant/repos/C/daniel-boone/Tests/2-out.json))
+((passed 1) (total 3) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/death-valley/Tests/3-in.json /home/vagrant/repos/C/death-valley/Tests/3-out.json)
+((/home/vagrant/repos/C/death-valley/Tests/3-in.json /home/vagrant/repos/C/death-valley/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/delta/Tests/1-in.json /home/vagrant/repos/C/delta/Tests/1-out.json)
+((/home/vagrant/repos/C/delta/Tests/1-in.json /home/vagrant/repos/C/delta/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/denali/Tests/1-in.json /home/vagrant/repos/C/denali/Tests/1-out.json)
+((/home/vagrant/repos/C/denali/Tests/1-in.json /home/vagrant/repos/C/denali/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/deschutes/Tests/1-in.json /home/vagrant/repos/C/deschutes/Tests/1-out.json)
+(testing /home/vagrant/repos/C/deschutes/Tests/2-in.json /home/vagrant/repos/C/deschutes/Tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((a . "abcd")
+          (b . 1.2890231480912385e+22)
+          (c . #hasheq((d . 12)))
+          (e . (1 "qwe" #t null))))
+(*** expected)
+'(#hasheq((a . "dcba")
+          (b . -1.2890231480912385e+22)
+          (c . #hasheq((d . -12)))
+          (e . (null #f "ewq" -1))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1)))))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((a . "dcba")
+            (b . 1.2890231480912385e+22)
+            (c . #hasheq((d . -12)))
+            (e . (null #f "ewq" -1))))))
+
+
+(testing /home/vagrant/repos/C/deschutes/Tests/3-in.json /home/vagrant/repos/C/deschutes/Tests/3-out.json)
+((/home/vagrant/repos/C/deschutes/Tests/1-in.json /home/vagrant/repos/C/deschutes/Tests/1-out.json) (/home/vagrant/repos/C/deschutes/Tests/3-in.json /home/vagrant/repos/C/deschutes/Tests/3-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/de-soto/Tests/1-in.json /home/vagrant/repos/C/de-soto/Tests/1-out.json)
+((/home/vagrant/repos/C/de-soto/Tests/1-in.json /home/vagrant/repos/C/de-soto/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/dighton-rock/Tests/1-in.json /home/vagrant/repos/C/dighton-rock/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'("hello"
+  null
+  #t
+  12
+  -1.0000000001
+  #hasheq((name_1 . "rachel") (name_2 . "kyle"))
+  (1 2 "red" "blue"))
+(*** expected)
+'("olleh"
+  null
+  #f
+  -12
+  1.0000000001
+  #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+  ("eulb" "der" -2 -1))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((plain fast with-newline escaped-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((plain fast with-space plain-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((plain fast with-space escaped-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((plain slow with-newline plain-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((plain slow with-newline escaped-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((plain slow with-space plain-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((plain slow with-space escaped-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((pretty fast with-newline plain-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((pretty fast with-newline escaped-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((pretty fast with-space plain-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((pretty fast with-space escaped-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((pretty slow with-newline plain-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((pretty slow with-newline escaped-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((pretty slow with-space plain-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1)))
+  ((pretty slow with-space escaped-unicode)
+   ("olleh"
+    null
+    #f
+    -12
+    -1.0000000001
+    #hasheq((name_1 . "lehcar") (name_2 . "elyk"))
+    ("eulb" "der" -2 -1))))
+
+
+(testing /home/vagrant/repos/C/dighton-rock/Tests/3-in.json /home/vagrant/repos/C/dighton-rock/Tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(("nested" ("list" ("times 3")))
+  #hasheq((key1 . #t)
+          (key2
+           .
+           #hasheq((key3 . "nested")
+                   (key4 . "dict")
+                   (key5 . #hasheq((key6 . "racecar"))))))
+  #hasheq((list . (#hasheq((color . "blue")) #f -1.0))))
+(*** expected)
+'(((("3 semit") "tsil") "detsen")
+  #hasheq((key1 . #f)
+          (key2
+           .
+           #hasheq((key3 . "detsen")
+                   (key4 . "tcid")
+                   (key5 . #hasheq((key6 . "racecar"))))))
+  #hasheq((list . (1.0 #t #hasheq((color . "eulb"))))))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((plain fast with-newline escaped-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((plain fast with-space plain-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((plain fast with-space escaped-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((plain slow with-newline plain-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((plain slow with-newline escaped-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((plain slow with-space plain-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((plain slow with-space escaped-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((pretty fast with-newline plain-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((pretty fast with-newline escaped-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((pretty fast with-space plain-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((pretty fast with-space escaped-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((pretty slow with-newline plain-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((pretty slow with-newline escaped-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((pretty slow with-space plain-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb")))))))
+  ((pretty slow with-space escaped-unicode)
+   (((("3 semit") "tsil") "detsen")
+    #hasheq((key1 . #f)
+            (key2
+             .
+             #hasheq((key3 . "detsen")
+                     (key4 . "tcid")
+                     (key5 . #hasheq((key6 . "racecar"))))))
+    #hasheq((list . (-1.0 #t #hasheq((color . "eulb"))))))))
+
+
+()
+((passed 0) (total 2) (partial-score 0))
+(testing /home/vagrant/repos/badlands/C/xjson)
+(testing /home/vagrant/repos/C/fens/Tests/2-in.json /home/vagrant/repos/C/fens/Tests/2-out.json)
+(testing /home/vagrant/repos/C/fens/Tests/3-in.json /home/vagrant/repos/C/fens/Tests/3-out.json)
+((/home/vagrant/repos/C/fens/Tests/2-in.json /home/vagrant/repos/C/fens/Tests/2-out.json) (/home/vagrant/repos/C/fens/Tests/3-in.json /home/vagrant/repos/C/fens/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))

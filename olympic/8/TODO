@@ -1,0 +1,24 @@
+[ ] Change run_game to return ranks rather than scores
+
+[ ] Possible change games to use CartesianTrainMap
+
+[ ] Make example map with enough destinations to play out game with 8 players
+
+[x] Abstract ref over how to choose destinations and cards to hand players
+  - [x] Abstract manager over the same and forward to ref
+
+[ ] Enforce tournament manager receives at least enough players for one game
+
+[ ] Change signature of get_ranks to return something like the JSON ranking spec
+
+[ ] Validate number of players in RefereeActor
+
+[ ] End game if everyone asks for more cards when the referee has none
+
+[x] Probably should be calling player.setup somewhere
+
+[ ] Ensure referee is handing out destinations in lexicographic ordering
+
+[ ] Change PlayerActor.pick to return destinations not chosen
+
+[ ] Fix unit tests that got broken from moving strategy file locations

@@ -1,0 +1,60 @@
+{
+  "str": "olleh",
+  "int": -5,
+  "negative_int": 5,
+  "zero": 0,
+  "true": false,
+  "false": true,
+  "none": null,
+  "object": {
+      "firstkey": "lavtsrif",
+      "secondkey": "lavdnoces",
+      "thirdkey": [[-15, -10], -4, -3]
+  },
+  "array": [{"key": "lav"}, "hus", false]
+}
+{
+  "str": "olleh",
+  "int": -5,
+  "negative_int": 5,
+  "zero": 0,
+  "true": false,
+  "false": true,
+  "none": null,
+  "object": {
+      "firstkey": "lavtsrif",
+      "secondkey": "lavdnoces",
+      "thirdkey": [[-15, -10], -4, -3]
+  },
+  "array": [{"key": "lav"}, "hus", false]
+}
+{
+  "str": "olleh",
+  "int": -5,
+  "negative_int": 5,
+  "zero": 0,
+  "true": false,
+  "false": true,
+  "none": null,
+  "object": {
+      "firstkey": "lavtsrif",
+      "secondkey": "lavdnoces",
+      "thirdkey": [[-15, -10], -4, -3]
+  },
+  "array": [{"key": "lav"}, "hus", false]
+}
+{
+  "str": "olleh",
+  "int": -5,
+  "negative_int": 5,
+  "zero": 0,
+  "true": false,
+  "false": true,
+  "none": null,
+  "object": {
+      "firstkey": "lavtsrif",
+      "secondkey": "lavdnoces",
+      "thirdkey": [[-15, -10], -4, -3]
+  },
+  "array": [{"key": "lav"}, "hus", false]
+}

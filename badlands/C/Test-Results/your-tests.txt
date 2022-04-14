@@ -1,0 +1,737 @@
+(testing /vagrant/canonical/C/xjson)
+(testing /home/vagrant/repos/badlands/C/Tests-0/1-in.json /home/vagrant/repos/badlands/C/Tests-0/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((array . (#t "suh" #hasheq((key . "val"))))
+          (false . #f)
+          (int . 5)
+          (negint . -5)
+          (none . null)
+          (object
+           .
+           #hasheq((firstkey . "firstval")
+                   (secondkey . "secondval")
+                   (thirdkey . (3 4 (10 15)))))
+          (str . "hello")
+          (true . #t)
+          (zero . 0))
+  "ehl"
+  -5
+  8
+  #f
+  #hasheq((brackets . "hello"))
+  #t
+  null
+  null
+  null
+  ("yah" #t null #hasheq((obj . "ect") (one . "two")) (111 ("array" #t) null))
+  1
+  3.7209)
+(*** expected)
+'(#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+          (false . #t)
+          (int . -5)
+          (negint . 5)
+          (none . null)
+          (object
+           .
+           #hasheq((firstkey . "lavtsrif")
+                   (secondkey . "lavdnoces")
+                   (thirdkey . ((-15 -10) -4 -3))))
+          (str . "olleh")
+          (true . #f)
+          (zero . 0))
+  "lhe"
+  5
+  -8
+  #t
+  #hasheq((brackets . "olleh"))
+  #f
+  null
+  null
+  null
+  ((null (#f "yarra") -111) #hasheq((obj . "tce") (one . "owt")) null #f "hay")
+  -1
+  3.7209)
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((plain fast with-newline escaped-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((plain fast with-space plain-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((plain fast with-space escaped-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((plain slow with-newline plain-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((plain slow with-newline escaped-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((plain slow with-space plain-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((plain slow with-space escaped-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((pretty fast with-newline plain-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((pretty fast with-newline escaped-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((pretty fast with-space plain-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((pretty fast with-space escaped-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((pretty slow with-newline plain-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((pretty slow with-newline escaped-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((pretty slow with-space plain-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209))
+  ((pretty slow with-space escaped-unicode)
+   (#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+            (false . #t)
+            (int . -5)
+            (negint . 5)
+            (none . null)
+            (object
+             .
+             #hasheq((firstkey . "lavtsrif")
+                     (secondkey . "lavdnoces")
+                     (thirdkey . ((-15 -10) -4 -3))))
+            (str . "olleh")
+            (true . #f)
+            (zero . 0))
+    "lhe"
+    5
+    -8
+    #t
+    #hasheq((brackets . "olleh"))
+    #f
+    null
+    null
+    null
+    ((null (#f "yarra") -111)
+     #hasheq((obj . "tce") (one . "owt"))
+     null
+     #f
+     "hay")
+    -1
+    -3.7209)))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /vagrant/canonical/C/xjson)
+(testing /home/vagrant/repos/badlands/C/Tests-1/2-in.json /home/vagrant/repos/badlands/C/Tests-1/2-out.json)
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((array . (#t "suh" #hasheq((key . "val")))) (false . #f) (int . 5) (negative_int . -5) (none . null) (object . #hasheq((firstkey . "firstval") (secondkey . "secondval") (thirdkey . (3 4 (10 15))))) (str . "hello") (true . #t) (zero . 0))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((array . (#t "suh" #hasheq((key . "val"))))
+          (false . #f)
+          (int . 5)
+          (negative_int . -5)
+          (none . null)
+          (object
+           .
+           #hasheq((firstkey . "firstval")
+                   (secondkey . "secondval")
+                   (thirdkey . (3 4 (10 15)))))
+          (str . "hello")
+          (true . #t)
+          (zero . 0))
+  #hasheq((array . (#t "suh" #hasheq((key . "val"))))
+          (false . #f)
+          (int . 5)
+          (negative_int . -5)
+          (none . null)
+          (object
+           .
+           #hasheq((firstkey . "firstval")
+                   (secondkey . "secondval")
+                   (thirdkey . (3 4 (10 15)))))
+          (str . "hello")
+          (true . #t)
+          (zero . 0))
+  #hasheq((array . (#t "suh" #hasheq((key . "val"))))
+          (false . #f)
+          (int . 5)
+          (negative_int . -5)
+          (none . null)
+          (object
+           .
+           #hasheq((firstkey . "firstval")
+                   (secondkey . "secondval")
+                   (thirdkey . (3 4 (10 15)))))
+          (str . "hello")
+          (true . #t)
+          (zero . 0))
+  #hasheq((array . (#t "suh" #hasheq((key . "val"))))
+          (false . #f)
+          (int . 5)
+          (negative_int . -5)
+          (none . null)
+          (object
+           .
+           #hasheq((firstkey . "firstval")
+                   (secondkey . "secondval")
+                   (thirdkey . (3 4 (10 15)))))
+          (str . "hello")
+          (true . #t)
+          (zero . 0)))
+(*** expected)
+'(#hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+          (false . #t)
+          (int . -5)
+          (negative_int . 5)
+          (none . null)
+          (object
+           .
+           #hasheq((firstkey . "lavtsrif")
+                   (secondkey . "lavdnoces")
+                   (thirdkey . ((-15 -10) -4 -3))))
+          (str . "olleh")
+          (true . #f)
+          (zero . 0))
+  #hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+          (false . #t)
+          (int . -5)
+          (negative_int . 5)
+          (none . null)
+          (object
+           .
+           #hasheq((firstkey . "lavtsrif")
+                   (secondkey . "lavdnoces")
+                   (thirdkey . ((-15 -10) -4 -3))))
+          (str . "olleh")
+          (true . #f)
+          (zero . 0))
+  #hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+          (false . #t)
+          (int . -5)
+          (negative_int . 5)
+          (none . null)
+          (object
+           .
+           #hasheq((firstkey . "lavtsrif")
+                   (secondkey . "lavdnoces")
+                   (thirdkey . ((-15 -10) -4 -3))))
+          (str . "olleh")
+          (true . #f)
+          (zero . 0))
+  #hasheq((array . (#hasheq((key . "lav")) "hus" #f))
+          (false . #t)
+          (int . -5)
+          (negative_int . 5)
+          (none . null)
+          (object
+           .
+           #hasheq((firstkey . "lavtsrif")
+                   (secondkey . "lavdnoces")
+                   (thirdkey . ((-15 -10) -4 -3))))
+          (str . "olleh")
+          (true . #f)
+          (zero . 0)))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ())
+  ((plain fast with-newline escaped-unicode) ())
+  ((plain fast with-space plain-unicode) ())
+  ((plain fast with-space escaped-unicode) ())
+  ((plain slow with-newline plain-unicode) ())
+  ((plain slow with-newline escaped-unicode) ())
+  ((plain slow with-space plain-unicode) ())
+  ((plain slow with-space escaped-unicode) ())
+  ((pretty fast with-newline plain-unicode) ())
+  ((pretty fast with-newline escaped-unicode) ())
+  ((pretty fast with-space plain-unicode) ())
+  ((pretty fast with-space escaped-unicode) ())
+  ((pretty slow with-newline plain-unicode) ())
+  ((pretty slow with-newline escaped-unicode) ())
+  ((pretty slow with-space plain-unicode) ())
+  ((pretty slow with-space escaped-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+file "/home/vagrant/repos/badlands/C/Tests/3-in.json" is too large (87777781 bytes)

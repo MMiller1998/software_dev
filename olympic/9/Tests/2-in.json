@@ -1,0 +1,63 @@
+{
+  "width": 500,
+  "height": 500,
+  "cities": [
+    ["BOS", [276, 34]],
+    ["BWI", [114, 324]],
+    ["IAD", [372, 319]],
+    ["JFK", [226, 216]],
+    ["LGA", [387, 183]],
+    ["MYR", [276, 410]],
+    ["PHL", [222, 22]],
+    ["PVD", [67, 95]]
+  ],
+  "connections": {
+    "BOS": {
+      "JFK": {
+        "red": 4
+      },
+      "PHL": {
+        "red": 5
+      }
+    },
+    "BWI": {
+      "MYR": {
+        "red": 4,
+        "white": 4
+      }
+    },
+    "IAD": {
+      "MYR": {
+        "red": 3
+      },
+      "PHL": {
+        "red": 4
+      }
+    },
+    "JFK": {
+      "PVD": {
+        "red": 5
+      }
+    },
+    "PHL": {
+      "PVD": {
+        "red": 3,
+        "blue": 4
+      }
+    }
+  }
+}
+
+
+[
+  ["PlayerA", "Cheat"],
+  ["PlayerB", "Cheat"],
+  ["PlayerC", "Cheat"],
+  ["PlayerD", "Cheat"],
+  ["PlayerE", "Cheat"],
+  ["PlayerF", "Cheat"],
+  ["PlayerG", "Cheat"]
+]
+
+
+["blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue"]

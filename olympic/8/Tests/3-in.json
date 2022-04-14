@@ -1,0 +1,121 @@
+{
+  "width": 500,
+  "height": 500,
+  "cities": [
+    ["BOS", [276, 34]],
+    ["BWI", [114, 324]],
+    ["IAD", [372, 319]],
+    ["JFK", [226, 216]],
+    ["LGA", [387, 183]],
+    ["MYR", [276, 410]],
+    ["PHL", [222, 22]],
+    ["PVD", [67, 95]]
+  ],
+  "connections": {
+    "BOS": {
+      "JFK": {
+        "red": 4
+      },
+      "PHL": {
+        "blue": 5
+      }
+    },
+    "BWI": {
+      "MYR": {
+        "blue": 4,
+        "green": 4
+      }
+    },
+    "IAD": {
+      "MYR": {
+        "green": 3
+      },
+      "PHL": {
+        "blue": 4
+      }
+    },
+    "JFK": {
+      "PVD": {
+        "white": 5
+      }
+    },
+    "PHL": {
+      "PVD": {
+        "red": 3,
+        "blue": 4
+      }
+    }
+  }
+}
+
+[
+  ["Graham", "Hold-10"],
+  ["Brian", "Buy-Now"],
+  ["Eve", "Cheat"]
+]
+
+[
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green", "blue", "white",
+  "red", "green"
+]

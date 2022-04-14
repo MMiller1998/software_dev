@@ -1,0 +1,8 @@
+description,score,max
+xjson exist,5,5
+Tests/1-out.json Tests/1-in.json exist,5,5
+xjson executable,5,5
+oracle tests,15,15
+students tests correct,0,15
+bonus caught classmate bug,0,0
+total,30,45

@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+PYTHONPATH=../ python3 Other/main.py

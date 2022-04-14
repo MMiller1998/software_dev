@@ -1,0 +1,10 @@
+[ ] Add timeout stuff to safe_player_call
+[ ] Be calling safe_player_call everywhere
+[ ] Create RemotePlayerActor out of PlayerActor interface or whatever it is
+[x] Create tournament in factory
+[ ] Need trains client/server proxy code
+[ ] Add coordinate info to TrainMap
+[ ] Add map size info to TrainMap
+[ ] Replace any calls on Acquire.to_output with serialize function
+[ ] Do the same with WantCards.to_output
+[ ] Guard on deserialize map that the map is valid, not just well-formed

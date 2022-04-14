@@ -1,0 +1,9 @@
+test,score,max
+delivered xhead,10,10
+xhead can be run,5,5
+`xhead -1.1`,5,5
+`xhead -1.1 extra`,5,5
+`xhead -0`,5,5
+`xhead -1`,5,5
+`xhead -5`,5,5
+total,40,40

@@ -1,0 +1,77 @@
+
+
+
+            {
+    "str": "hello",
+    "int": 5,
+    "negative_int": -5,
+    "zero": 0,
+    "true": true,
+    "false": false,
+    "none": null,
+    "object": {
+        "firstkey": "firstval",
+        "secondkey": "secondval",
+        "thirdkey": [3, 4, [10, 15]]
+    },
+    "array": [true, "suh", { "key": "val"}]
+}
+
+{
+    "str": "hello",
+    "int": 5,
+    "negative_int": -5,
+    "zero": 0,
+    "true": true,
+    "false": false,
+    "none": null,
+    "object": {
+        "firstkey": "firstval",
+        "secondkey": "secondval",
+        "thirdkey": [3, 4, [10, 15]]
+    },
+    "array": [true, "suh", { "key": "val"}]
+}
+
+{
+    "str": "hello",
+    "int": 5,
+    "negative_int": -5,
+    "zero": 0,
+    "true": true,
+    "false": false,
+    "none": null,
+    "object": {
+        "firstkey": "firstval",
+        "secondkey": "secondval",
+        "thirdkey": [
+            3,
+            4,
+            [
+                10,
+                15
+            ]
+        ]
+    },
+    "array": [
+        true,
+        "suh",
+        {
+            "key": "val"
+        }
+    ]
+}        {
+    "str": "hello",
+    "int": 5,
+    "negative_int": -5,
+    "zero": 0,
+    "true": true,
+    "false": false,
+    "none": null,
+    "object": {
+        "firstkey": "firstval",
+        "secondkey": "secondval",
+        "thirdkey": [3, 4, [10, 15]]
+    },
+    "array": [true, "suh", { "key": "val"}]
+}

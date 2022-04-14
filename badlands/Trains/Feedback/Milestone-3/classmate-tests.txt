@@ -1,0 +1,1016 @@
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/acadia/Tests/1-in.json /home/vagrant/repos/3/acadia/Tests/1-out.json)
+(testing /home/vagrant/repos/3/acadia/Tests/2-in.json /home/vagrant/repos/3/acadia/Tests/2-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Montgomery"
+  "Anchorage"
+  #hasheq((cities
+           .
+           (("Montgomery" (48 500))
+            ("Princeton" (258 32))
+            ("Watchung Hills" (0 66))
+            ("Anchorage" (43 104))))
+          (connections
+           .
+           #hasheq((Montgomery
+                    .
+                    #hasheq((Princeton . #hasheq((blue . 5)))
+                            (|Watchung Hills|
+                             .
+                             #hasheq((blue . 5) (red . 5)))))
+                   (Princeton
+                    .
+                    #hasheq((|Watchung Hills| . #hasheq((white . 5)))))))
+          (height . 500)
+          (width . 500)))
+(*** expected)
+'(#f)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/acadia/Tests/3-in.json /home/vagrant/repos/3/acadia/Tests/3-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Montgomery"
+  "Anchorage"
+  #hasheq((cities
+           .
+           (("Montgomery" (48 500))
+            ("Princeton" (258 32))
+            ("Watchung Hills" (0 66))
+            ("Anchorage" (43 104))))
+          (connections
+           .
+           #hasheq((Anchorage
+                    .
+                    #hasheq((|Watchung Hills| . #hasheq((green . 3)))))
+                   (Montgomery
+                    .
+                    #hasheq((Princeton . #hasheq((blue . 5)))
+                            (|Watchung Hills|
+                             .
+                             #hasheq((blue . 5) (red . 5)))))
+                   (Princeton
+                    .
+                    #hasheq((|Watchung Hills| . #hasheq((white . 5)))))))
+          (height . 500)
+          (width . 500)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+((/home/vagrant/repos/3/acadia/Tests/1-in.json /home/vagrant/repos/3/acadia/Tests/1-out.json))
+((passed 1) (total 3) (partial-score 1))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/angelina/Tests/1-in.json /home/vagrant/repos/3/angelina/Tests/1-out.json)
+(testing /home/vagrant/repos/3/angelina/Tests/2-in.json /home/vagrant/repos/3/angelina/Tests/2-out.json)
+((/home/vagrant/repos/3/angelina/Tests/1-in.json /home/vagrant/repos/3/angelina/Tests/1-out.json) (/home/vagrant/repos/3/angelina/Tests/2-in.json /home/vagrant/repos/3/angelina/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/appalachian/Tests/1-in.json /home/vagrant/repos/3/appalachian/Tests/1-out.json)
+(testing /home/vagrant/repos/3/appalachian/Tests/2-in.json /home/vagrant/repos/3/appalachian/Tests/2-out.json)
+(testing /home/vagrant/repos/3/appalachian/Tests/3-in.json /home/vagrant/repos/3/appalachian/Tests/3-out.json)
+((/home/vagrant/repos/3/appalachian/Tests/1-in.json /home/vagrant/repos/3/appalachian/Tests/1-out.json) (/home/vagrant/repos/3/appalachian/Tests/2-in.json /home/vagrant/repos/3/appalachian/Tests/2-out.json) (/home/vagrant/repos/3/appalachian/Tests/3-in.json /home/vagrant/repos/3/appalachian/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/arapaho/Tests/1-in.json /home/vagrant/repos/3/arapaho/Tests/1-out.json)
+(testing /home/vagrant/repos/3/arapaho/Tests/2-in.json /home/vagrant/repos/3/arapaho/Tests/2-out.json)
+(testing /home/vagrant/repos/3/arapaho/Tests/3-in.json /home/vagrant/repos/3/arapaho/Tests/3-out.json)
+((/home/vagrant/repos/3/arapaho/Tests/1-in.json /home/vagrant/repos/3/arapaho/Tests/1-out.json) (/home/vagrant/repos/3/arapaho/Tests/2-in.json /home/vagrant/repos/3/arapaho/Tests/2-out.json) (/home/vagrant/repos/3/arapaho/Tests/3-in.json /home/vagrant/repos/3/arapaho/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/ashland/Tests/1-in.json /home/vagrant/repos/3/ashland/Tests/1-out.json)
+(testing /home/vagrant/repos/3/ashland/Tests/2-in.json /home/vagrant/repos/3/ashland/Tests/2-out.json)
+((/home/vagrant/repos/3/ashland/Tests/1-in.json /home/vagrant/repos/3/ashland/Tests/1-out.json) (/home/vagrant/repos/3/ashland/Tests/2-in.json /home/vagrant/repos/3/ashland/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/bienville/Tests/1-in.json /home/vagrant/repos/3/bienville/Tests/1-out.json)
+(testing /home/vagrant/repos/3/bienville/Tests/2-in.json /home/vagrant/repos/3/bienville/Tests/2-out.json)
+((/home/vagrant/repos/3/bienville/Tests/1-in.json /home/vagrant/repos/3/bienville/Tests/1-out.json) (/home/vagrant/repos/3/bienville/Tests/2-in.json /home/vagrant/repos/3/bienville/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/bighorn/Tests/1-in.json /home/vagrant/repos/3/bighorn/Tests/1-out.json)
+(testing /home/vagrant/repos/3/bighorn/Tests/2-in.json /home/vagrant/repos/3/bighorn/Tests/2-out.json)
+(testing /home/vagrant/repos/3/bighorn/Tests/3-in.json /home/vagrant/repos/3/bighorn/Tests/3-out.json)
+((/home/vagrant/repos/3/bighorn/Tests/1-in.json /home/vagrant/repos/3/bighorn/Tests/1-out.json) (/home/vagrant/repos/3/bighorn/Tests/2-in.json /home/vagrant/repos/3/bighorn/Tests/2-out.json) (/home/vagrant/repos/3/bighorn/Tests/3-in.json /home/vagrant/repos/3/bighorn/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/biscayne/Tests/3-in.json /home/vagrant/repos/3/biscayne/Tests/3-out.json)
+((/home/vagrant/repos/3/biscayne/Tests/3-in.json /home/vagrant/repos/3/biscayne/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/black-canyon/Tests/1-in.json /home/vagrant/repos/3/black-canyon/Tests/1-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("LA"
+  "SB"
+  #hasheq((cities . (("LA" (800 0)) ("SB" (799 10))))
+          (connections . #hasheq())
+          (height . 10)
+          (width . 800)))
+(*** expected)
+'(#f)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/black-canyon/Tests/2-in.json /home/vagrant/repos/3/black-canyon/Tests/2-out.json)
+((/home/vagrant/repos/3/black-canyon/Tests/2-in.json /home/vagrant/repos/3/black-canyon/Tests/2-out.json))
+((passed 1) (total 2) (partial-score 1))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/blue-hills/Tests/1-in.json /home/vagrant/repos/3/blue-hills/Tests/1-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("CityA"
+  "CityB"
+  #hasheq((cities
+           .
+           (("CityA" (0 100))
+            ("CityB" (100 100))
+            ("CityC" (150 300))
+            ("CityD" (200 500))))
+          (connections
+           .
+           #hasheq((CityA
+                    .
+                    #hasheq((CityB . #hasheq((blue . 3) (green . 3) (red . 3)))
+                            (CityC . #hasheq((blue . 4) (red . 4)))
+                            (CityD . #hasheq((green . 3) (red . 5)))))
+                   (CityB . #hasheq((CityC . #hasheq((green . 3)))))))
+          (height . 500)
+          (width . 500)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/blue-hills/Tests/2-in.json /home/vagrant/repos/3/blue-hills/Tests/2-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("CityA"
+  "CityD"
+  #hasheq((cities
+           .
+           (("CityA" (0 100))
+            ("CityB" (100 100))
+            ("CityC" (150 300))
+            ("CityD" (200 500))))
+          (connections
+           .
+           #hasheq((CityA
+                    .
+                    #hasheq((CityB . #hasheq((blue . 3) (green . 3) (red . 3)))
+                            (CityC . #hasheq((blue . 4) (red . 4)))))
+                   (CityB . #hasheq((CityC . #hasheq((green . 3)))))))
+          (height . 500)
+          (width . 500)))
+(*** expected)
+'(#f)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/blue-hills/Tests/3-in.json /home/vagrant/repos/3/blue-hills/Tests/3-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("CityA"
+  "CityD"
+  #hasheq((cities
+           .
+           (("CityA" (0 100))
+            ("CityB" (100 100))
+            ("CityC" (150 300))
+            ("CityD" (200 500))
+            ("CityE" (150 500))
+            ("CityF" (200 200))
+            ("CityG" (200 50))))
+          (connections
+           .
+           #hasheq((CityA
+                    .
+                    #hasheq((CityB
+                             .
+                             #hasheq((blue . 3) (green . 3) (red . 3)))))
+                   (CityB . #hasheq((CityC . #hasheq((green . 3)))))
+                   (CityC . #hasheq((CityD . #hasheq((red . 5)))))
+                   (CityD . #hasheq((CityE . #hasheq((red . 5)))))
+                   (CityE . #hasheq((CityF . #hasheq((green . 4)))))
+                   (CityF . #hasheq((CityG . #hasheq((green . 5)))))))
+          (height . 500)
+          (width . 500)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 3) (partial-score 0))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/boise/Tests/11-in.json /home/vagrant/repos/3/boise/Tests/11-out.json)
+(testing /home/vagrant/repos/3/boise/Tests/12-in.json /home/vagrant/repos/3/boise/Tests/12-out.json)
+(testing /home/vagrant/repos/3/boise/Tests/2-in.json /home/vagrant/repos/3/boise/Tests/2-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Boston"
+  "Washington, D.C."
+  #hasheq((cities
+           .
+           (("Washington, D.C." (600 500))
+            ("New York" (700 400))
+            ("Boston" (800 300))
+            ("Trenton" (650 450))))
+          (connections
+           .
+           #hasheq((Boston . #hasheq((|New York| . #hasheq((blue . 5)))))
+                   (|New York| . #hasheq((Trenton . #hasheq((red . 4)))))
+                   (Trenton
+                    .
+                    #hasheq((|Washington, D.C.| . #hasheq((green . 3)))))))
+          (height . 800)
+          (width . 800)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+((/home/vagrant/repos/3/boise/Tests/11-in.json /home/vagrant/repos/3/boise/Tests/11-out.json) (/home/vagrant/repos/3/boise/Tests/12-in.json /home/vagrant/repos/3/boise/Tests/12-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/borderland/Tests/1-in.json /home/vagrant/repos/3/borderland/Tests/1-out.json)
+(testing /home/vagrant/repos/3/borderland/Tests/11-in.json /home/vagrant/repos/3/borderland/Tests/11-out.json)
+(testing /home/vagrant/repos/3/borderland/Tests/12-in.json /home/vagrant/repos/3/borderland/Tests/12-out.json)
+(testing /home/vagrant/repos/3/borderland/Tests/2-in.json /home/vagrant/repos/3/borderland/Tests/2-out.json)
+(testing /home/vagrant/repos/3/borderland/Tests/3-in.json /home/vagrant/repos/3/borderland/Tests/3-out.json)
+((/home/vagrant/repos/3/borderland/Tests/1-in.json /home/vagrant/repos/3/borderland/Tests/1-out.json) (/home/vagrant/repos/3/borderland/Tests/11-in.json /home/vagrant/repos/3/borderland/Tests/11-out.json) (/home/vagrant/repos/3/borderland/Tests/12-in.json /home/vagrant/repos/3/borderland/Tests/12-out.json) (/home/vagrant/repos/3/borderland/Tests/2-in.json /home/vagrant/repos/3/borderland/Tests/2-out.json) (/home/vagrant/repos/3/borderland/Tests/3-in.json /home/vagrant/repos/3/borderland/Tests/3-out.json))
+((passed 5) (total 5) (partial-score 5))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/breakheart/Tests/1-in.json /home/vagrant/repos/3/breakheart/Tests/1-out.json)
+((/home/vagrant/repos/3/breakheart/Tests/1-in.json /home/vagrant/repos/3/breakheart/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/bridger/Tests/1-in.json /home/vagrant/repos/3/bridger/Tests/1-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Chicago"
+  "Boston"
+  #hasheq((cities . (("Boston" (700 100)) ("Chicago" (450 300))))
+          (connections
+           .
+           #hasheq((Boston . #hasheq((Chicago . #hasheq((red . 3)))))))
+          (height . 600)
+          (width . 700)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/bridger/Tests/2-in.json /home/vagrant/repos/3/bridger/Tests/2-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Chicago"
+  "LA"
+  #hasheq((cities
+           .
+           (("Boston" (700 100)) ("Chicago" (450 300)) ("LA" (100 400))))
+          (connections
+           .
+           #hasheq((Boston . #hasheq((Chicago . #hasheq((red . 3)))))
+                   (Chicago . #hasheq((LA . #hasheq((white . 4)))))))
+          (height . 600)
+          (width . 700)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/bridger/Tests/3-in.json /home/vagrant/repos/3/bridger/Tests/3-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Chicago"
+  "LA"
+  #hasheq((cities
+           .
+           (("Boston" (700 100)) ("Chicago" (450 300)) ("LA" (100 400))))
+          (connections
+           .
+           #hasheq((Boston . #hasheq((Chicago . #hasheq((red . 3)))))))
+          (height . 600)
+          (width . 700)))
+(*** expected)
+'(#f)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 3) (partial-score 0))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/brimfield/Tests/1-in.json /home/vagrant/repos/3/brimfield/Tests/1-out.json)
+(testing /home/vagrant/repos/3/brimfield/Tests/2-in.json /home/vagrant/repos/3/brimfield/Tests/2-out.json)
+(testing /home/vagrant/repos/3/brimfield/Tests/3-in.json /home/vagrant/repos/3/brimfield/Tests/3-out.json)
+((/home/vagrant/repos/3/brimfield/Tests/1-in.json /home/vagrant/repos/3/brimfield/Tests/1-out.json) (/home/vagrant/repos/3/brimfield/Tests/2-in.json /home/vagrant/repos/3/brimfield/Tests/2-out.json) (/home/vagrant/repos/3/brimfield/Tests/3-in.json /home/vagrant/repos/3/brimfield/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/brook-farm/Tests/5-in.json /home/vagrant/repos/3/brook-farm/Tests/5-out.json)
+((/home/vagrant/repos/3/brook-farm/Tests/5-in.json /home/vagrant/repos/3/brook-farm/Tests/5-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/camp-nihan/Tests/3-in.json /home/vagrant/repos/3/camp-nihan/Tests/3-out.json)
+((/home/vagrant/repos/3/camp-nihan/Tests/3-in.json /home/vagrant/repos/3/camp-nihan/Tests/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/caribou/Tests/1-in.json /home/vagrant/repos/3/caribou/Tests/1-out.json)
+(testing /home/vagrant/repos/3/caribou/Tests/3-in.json /home/vagrant/repos/3/caribou/Tests/3-out.json)
+((/home/vagrant/repos/3/caribou/Tests/1-in.json /home/vagrant/repos/3/caribou/Tests/1-out.json) (/home/vagrant/repos/3/caribou/Tests/3-in.json /home/vagrant/repos/3/caribou/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/carson/Tests/1-in.json /home/vagrant/repos/3/carson/Tests/1-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("New York"
+  "LA"
+  #hasheq((cities
+           .
+           (("LA" (100 100))
+            ("New York" (10 23))
+            ("Boston" (432 111))
+            ("Portland" (0 800))))
+          (connections
+           .
+           #hasheq((Boston
+                    .
+                    #hasheq((|New York| . #hasheq((red . 3) (white . 5)))
+                            (Portland . #hasheq((blue . 4)))))
+                   (LA . #hasheq((Portland . #hasheq((green . 5)))))))
+          (height . 800)
+          (width . 500)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/carson/Tests/2-in.json /home/vagrant/repos/3/carson/Tests/2-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Portland"
+  "Chicago"
+  #hasheq((cities
+           .
+           (("LA" (100 100))
+            ("New York" (10 23))
+            ("Boston" (432 111))
+            ("Portland" (0 800))
+            ("Chicago" (0 799))))
+          (connections
+           .
+           #hasheq((Boston
+                    .
+                    #hasheq((|New York| . #hasheq((red . 3) (white . 5)))
+                            (Portland . #hasheq((blue . 4)))))
+                   (Chicago
+                    .
+                    #hasheq((LA . #hasheq((blue . 3) (white . 3)))))))
+          (height . 800)
+          (width . 500)))
+(*** expected)
+'(#f)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/carson/Tests/3-in.json /home/vagrant/repos/3/carson/Tests/3-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("St. Louis 2.0"
+  ",. 1.2"
+  #hasheq((cities
+           .
+           (("LA" (100 100))
+            ("New York" (10 23))
+            ("Boston" (432 111))
+            ("Portland" (0 800))
+            ("Chicago" (0 799))
+            ("St. Louis 2.0" (234 119))
+            (",. 1.2" (111 222))))
+          (connections
+           .
+           #hasheq((|,. 1.2|
+                    .
+                    #hasheq((Boston . #hasheq((red . 5)))
+                            (Chicago . #hasheq((blue . 5) (white . 3)))))
+                   (Boston
+                    .
+                    #hasheq((|New York| . #hasheq((red . 3) (white . 5)))
+                            (Portland . #hasheq((blue . 4)))
+                            (|St. Louis 2.0|
+                             .
+                             #hasheq((blue . 3)
+                                     (green . 3)
+                                     (red . 3)
+                                     (white . 3)))))
+                   (Chicago . #hasheq((LA . #hasheq((blue . 3) (white . 3)))))
+                   (LA . #hasheq((|St. Louis 2.0| . #hasheq((white . 3)))))))
+          (height . 800)
+          (width . 500)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 3) (partial-score 0))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/chestnut-hill/Tests/1-in.json /home/vagrant/repos/3/chestnut-hill/Tests/1-out.json)
+(testing /home/vagrant/repos/3/chestnut-hill/Tests/2-in.json /home/vagrant/repos/3/chestnut-hill/Tests/2-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("city5"
+  "city2"
+  #hasheq((cities
+           .
+           (("city1" (20 30))
+            ("city2" (200 500))
+            ("city3" (500 250))
+            ("city4" (350 30))
+            ("city5" (100 100))))
+          (connections
+           .
+           #hasheq((city1
+                    .
+                    #hasheq((city2 . #hasheq((red . 3)))
+                            (city3 . #hasheq((blue . 4)))))
+                   (city2
+                    .
+                    #hasheq((city4 . #hasheq((green . 3) (white . 5)))))))
+          (height . 600)
+          (width . 500)))
+(*** expected)
+'(#f)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/chestnut-hill/Tests/3-in.json /home/vagrant/repos/3/chestnut-hill/Tests/3-out.json)
+((/home/vagrant/repos/3/chestnut-hill/Tests/1-in.json /home/vagrant/repos/3/chestnut-hill/Tests/1-out.json) (/home/vagrant/repos/3/chestnut-hill/Tests/3-in.json /home/vagrant/repos/3/chestnut-hill/Tests/3-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/clearwater/Tests/1-in.json /home/vagrant/repos/3/clearwater/Tests/1-out.json)
+((/home/vagrant/repos/3/clearwater/Tests/1-in.json /home/vagrant/repos/3/clearwater/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/cleveland/Tests/1-in.json /home/vagrant/repos/3/cleveland/Tests/1-out.json)
+(testing /home/vagrant/repos/3/cleveland/Tests/11-in.json /home/vagrant/repos/3/cleveland/Tests/11-out.json)
+(testing /home/vagrant/repos/3/cleveland/Tests/12-in.json /home/vagrant/repos/3/cleveland/Tests/12-out.json)
+(testing /home/vagrant/repos/3/cleveland/Tests/2-in.json /home/vagrant/repos/3/cleveland/Tests/2-out.json)
+(testing /home/vagrant/repos/3/cleveland/Tests/3-in.json /home/vagrant/repos/3/cleveland/Tests/3-out.json)
+((/home/vagrant/repos/3/cleveland/Tests/1-in.json /home/vagrant/repos/3/cleveland/Tests/1-out.json) (/home/vagrant/repos/3/cleveland/Tests/11-in.json /home/vagrant/repos/3/cleveland/Tests/11-out.json) (/home/vagrant/repos/3/cleveland/Tests/12-in.json /home/vagrant/repos/3/cleveland/Tests/12-out.json) (/home/vagrant/repos/3/cleveland/Tests/2-in.json /home/vagrant/repos/3/cleveland/Tests/2-out.json) (/home/vagrant/repos/3/cleveland/Tests/3-in.json /home/vagrant/repos/3/cleveland/Tests/3-out.json))
+((passed 5) (total 5) (partial-score 5))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/coconino/Tests/1-in.json /home/vagrant/repos/3/coconino/Tests/1-out.json)
+(testing /home/vagrant/repos/3/coconino/Tests/2-in.json /home/vagrant/repos/3/coconino/Tests/2-out.json)
+(testing /home/vagrant/repos/3/coconino/Tests/3-in.json /home/vagrant/repos/3/coconino/Tests/3-out.json)
+((/home/vagrant/repos/3/coconino/Tests/1-in.json /home/vagrant/repos/3/coconino/Tests/1-out.json) (/home/vagrant/repos/3/coconino/Tests/2-in.json /home/vagrant/repos/3/coconino/Tests/2-out.json) (/home/vagrant/repos/3/coconino/Tests/3-in.json /home/vagrant/repos/3/coconino/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/colville/Tests/1-in.json /home/vagrant/repos/3/colville/Tests/1-out.json)
+(testing /home/vagrant/repos/3/colville/Tests/11-in.json /home/vagrant/repos/3/colville/Tests/11-out.json)
+(testing /home/vagrant/repos/3/colville/Tests/12-in.json /home/vagrant/repos/3/colville/Tests/12-out.json)
+(testing /home/vagrant/repos/3/colville/Tests/2-in.json /home/vagrant/repos/3/colville/Tests/2-out.json)
+(testing /home/vagrant/repos/3/colville/Tests/3-in.json /home/vagrant/repos/3/colville/Tests/3-out.json)
+((/home/vagrant/repos/3/colville/Tests/1-in.json /home/vagrant/repos/3/colville/Tests/1-out.json) (/home/vagrant/repos/3/colville/Tests/11-in.json /home/vagrant/repos/3/colville/Tests/11-out.json) (/home/vagrant/repos/3/colville/Tests/12-in.json /home/vagrant/repos/3/colville/Tests/12-out.json) (/home/vagrant/repos/3/colville/Tests/2-in.json /home/vagrant/repos/3/colville/Tests/2-out.json) (/home/vagrant/repos/3/colville/Tests/3-in.json /home/vagrant/repos/3/colville/Tests/3-out.json))
+((passed 5) (total 5) (partial-score 5))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/congaree/Tests/1-in.json /home/vagrant/repos/3/congaree/Tests/1-out.json)
+(testing /home/vagrant/repos/3/congaree/Tests/2-in.json /home/vagrant/repos/3/congaree/Tests/2-out.json)
+((/home/vagrant/repos/3/congaree/Tests/1-in.json /home/vagrant/repos/3/congaree/Tests/1-out.json) (/home/vagrant/repos/3/congaree/Tests/2-in.json /home/vagrant/repos/3/congaree/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/croatan/Tests/2-in.json /home/vagrant/repos/3/croatan/Tests/2-out.json)
+(testing /home/vagrant/repos/3/croatan/Tests/3-in.json /home/vagrant/repos/3/croatan/Tests/3-out.json)
+((/home/vagrant/repos/3/croatan/Tests/2-in.json /home/vagrant/repos/3/croatan/Tests/2-out.json) (/home/vagrant/repos/3/croatan/Tests/3-in.json /home/vagrant/repos/3/croatan/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/cutler-park/Tests/2-in.json /home/vagrant/repos/3/cutler-park/Tests/2-out.json)
+(testing /home/vagrant/repos/3/cutler-park/Tests/3-in.json /home/vagrant/repos/3/cutler-park/Tests/3-out.json)
+((/home/vagrant/repos/3/cutler-park/Tests/2-in.json /home/vagrant/repos/3/cutler-park/Tests/2-out.json) (/home/vagrant/repos/3/cutler-park/Tests/3-in.json /home/vagrant/repos/3/cutler-park/Tests/3-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/daniel-boone/Tests/1-in.json /home/vagrant/repos/3/daniel-boone/Tests/1-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Boston"
+  "Seattle"
+  #hasheq((cities . (("Boston" (100 600)) ("Seattle" (100 100))))
+          (connections
+           .
+           #hasheq((Boston . #hasheq((Seattle . #hasheq((red . 3)))))))
+          (height . 600)
+          (width . 800)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/daniel-boone/Tests/2-in.json /home/vagrant/repos/3/daniel-boone/Tests/2-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Boston"
+  "Seattle"
+  #hasheq((cities
+           .
+           (("Albany" (700 100))
+            ("Boston" (800 75))
+            ("Charleston" (700 400))
+            ("Denver" (350 275))
+            ("El Paso" (400 500))
+            ("Fargo" (400 50))
+            ("Grand Rapids" (500 150))
+            ("Houston" (500 500))
+            ("Indianapolis" (500 200))
+            ("Jacksonville" (650 500))
+            ("Knoxville" (600 400))
+            ("Los Angeles" (100 475))
+            ("Memphis" (550 400))
+            ("New Orleans" (550 500))
+            ("Omaha" (500 250))
+            ("Portland" (50 75))
+            ("Quincy" (800 80))
+            ("Reno" (125 300))
+            ("Seattle" (50 50))
+            ("Tucson" (250 500))))
+          (connections
+           .
+           #hasheq((Albany
+                    .
+                    #hasheq((Boston . #hasheq((red . 5) (white . 4)))
+                            (Seattle . #hasheq((blue . 4)))
+                            (Tucson . #hasheq((red . 4)))))
+                   (Boston
+                    .
+                    #hasheq((Charleston . #hasheq((red . 5)))
+                            (Denver . #hasheq((red . 3)))
+                            (Tucson . #hasheq((white . 3)))))
+                   (Charleston
+                    .
+                    #hasheq((Denver . #hasheq((blue . 4)))
+                            (|El Paso| . #hasheq((green . 4)))))
+                   (Denver
+                    .
+                    #hasheq((|El Paso| . #hasheq((red . 3)))
+                            (Fargo . #hasheq((red . 5)))))
+                   (|El Paso|
+                    .
+                    #hasheq((Fargo . #hasheq((blue . 5)))
+                            (Houston . #hasheq((red . 3)))))
+                   (Fargo
+                    .
+                    #hasheq((|Grand Rapids| . #hasheq((blue . 3)))
+                            (Houston . #hasheq((red . 5)))))
+                   (|Grand Rapids|
+                    .
+                    #hasheq((Houston . #hasheq((red . 5)))
+                            (Indianapolis . #hasheq((red . 3)))))
+                   (Houston
+                    .
+                    #hasheq((Indianapolis . #hasheq((red . 5)))
+                            (Jacksonville . #hasheq((red . 3)))))
+                   (Indianapolis
+                    .
+                    #hasheq((Jacksonville . #hasheq((green . 5)))
+                            (Knoxville . #hasheq((green . 3)))))
+                   (Jacksonville
+                    .
+                    #hasheq((Knoxville . #hasheq((white . 3)))
+                            (|Los Angeles| . #hasheq((red . 5)))))
+                   (Knoxville
+                    .
+                    #hasheq((|Los Angeles| . #hasheq((white . 5)))
+                            (Memphis . #hasheq((green . 3)))))
+                   (|Los Angeles|
+                    .
+                    #hasheq((Memphis . #hasheq((red . 4)))
+                            (|New Orleans| . #hasheq((blue . 3)))))
+                   (Memphis
+                    .
+                    #hasheq((|New Orleans| . #hasheq((green . 5)))
+                            (Omaha . #hasheq((green . 4)))))
+                   (|New Orleans|
+                    .
+                    #hasheq((Omaha . #hasheq((red . 4)))
+                            (Portland . #hasheq((blue . 5)))))
+                   (Omaha
+                    .
+                    #hasheq((Portland . #hasheq((red . 3)))
+                            (Quincy . #hasheq((red . 5)))))
+                   (Portland
+                    .
+                    #hasheq((Quincy . #hasheq((blue . 4)))
+                            (Reno . #hasheq((red . 4)))))
+                   (Quincy
+                    .
+                    #hasheq((Reno . #hasheq((red . 5)))
+                            (Seattle . #hasheq((white . 5)))))
+                   (Reno
+                    .
+                    #hasheq((Seattle . #hasheq((red . 4)))
+                            (Tucson . #hasheq((red . 3)))))
+                   (Seattle . #hasheq((Tucson . #hasheq((blue . 3)))))))
+          (height . 600)
+          (width . 800)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/daniel-boone/Tests/3-in.json /home/vagrant/repos/3/daniel-boone/Tests/3-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Boston"
+  "Seattle"
+  #hasheq((cities
+           .
+           (("Boston" (100 600)) ("Chicago" (400 600)) ("Seattle" (100 100))))
+          (connections
+           .
+           #hasheq((Boston . #hasheq((Chicago . #hasheq((red . 3)))))))
+          (height . 600)
+          (width . 800)))
+(*** expected)
+'(#f)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/daniel-boone/Tests/4-in.json /home/vagrant/repos/3/daniel-boone/Tests/4-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Boston"
+  "Seattle"
+  #hasheq((cities
+           .
+           (("Boston" (100 600)) ("Chicago" (400 600)) ("Seattle" (100 100))))
+          (connections
+           .
+           #hasheq((Boston . #hasheq((Chicago . #hasheq((red . 3)))))
+                   (Chicago . #hasheq((Seattle . #hasheq((green . 5)))))))
+          (height . 600)
+          (width . 800)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 4) (partial-score 0))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/denali/Tests/1-in.json /home/vagrant/repos/3/denali/Tests/1-out.json)
+(testing /home/vagrant/repos/3/denali/Tests/2-in.json /home/vagrant/repos/3/denali/Tests/2-out.json)
+((/home/vagrant/repos/3/denali/Tests/1-in.json /home/vagrant/repos/3/denali/Tests/1-out.json) (/home/vagrant/repos/3/denali/Tests/2-in.json /home/vagrant/repos/3/denali/Tests/2-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/deschutes/Tests/1-in.json /home/vagrant/repos/3/deschutes/Tests/1-out.json)
+((/home/vagrant/repos/3/deschutes/Tests/1-in.json /home/vagrant/repos/3/deschutes/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/dighton-rock/Tests/1-in.json /home/vagrant/repos/3/dighton-rock/Tests/1-out.json)
+(testing /home/vagrant/repos/3/dighton-rock/Tests/2-in.json /home/vagrant/repos/3/dighton-rock/Tests/2-out.json)
+(testing /home/vagrant/repos/3/dighton-rock/Tests/3-in.json /home/vagrant/repos/3/dighton-rock/Tests/3-out.json)
+(testing /home/vagrant/repos/3/dighton-rock/Tests/4-in.json /home/vagrant/repos/3/dighton-rock/Tests/4-out.json)
+((/home/vagrant/repos/3/dighton-rock/Tests/1-in.json /home/vagrant/repos/3/dighton-rock/Tests/1-out.json) (/home/vagrant/repos/3/dighton-rock/Tests/2-in.json /home/vagrant/repos/3/dighton-rock/Tests/2-out.json) (/home/vagrant/repos/3/dighton-rock/Tests/3-in.json /home/vagrant/repos/3/dighton-rock/Tests/3-out.json) (/home/vagrant/repos/3/dighton-rock/Tests/4-in.json /home/vagrant/repos/3/dighton-rock/Tests/4-out.json))
+((passed 4) (total 4) (partial-score 4))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/dry-tortugas/Tests/1-in.json /home/vagrant/repos/3/dry-tortugas/Tests/1-out.json)
+(testing /home/vagrant/repos/3/dry-tortugas/Tests/2-in.json /home/vagrant/repos/3/dry-tortugas/Tests/2-out.json)
+(testing /home/vagrant/repos/3/dry-tortugas/Tests/3-in.json /home/vagrant/repos/3/dry-tortugas/Tests/3-out.json)
+(testing /home/vagrant/repos/3/dry-tortugas/Tests/4-in.json /home/vagrant/repos/3/dry-tortugas/Tests/4-out.json)
+((/home/vagrant/repos/3/dry-tortugas/Tests/1-in.json /home/vagrant/repos/3/dry-tortugas/Tests/1-out.json) (/home/vagrant/repos/3/dry-tortugas/Tests/2-in.json /home/vagrant/repos/3/dry-tortugas/Tests/2-out.json) (/home/vagrant/repos/3/dry-tortugas/Tests/3-in.json /home/vagrant/repos/3/dry-tortugas/Tests/3-out.json) (/home/vagrant/repos/3/dry-tortugas/Tests/4-in.json /home/vagrant/repos/3/dry-tortugas/Tests/4-out.json))
+((passed 4) (total 4) (partial-score 4))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/elm-bank/Tests/11-in.json /home/vagrant/repos/3/elm-bank/Tests/11-out.json)
+(testing /home/vagrant/repos/3/elm-bank/Tests/12-in.json /home/vagrant/repos/3/elm-bank/Tests/12-out.json)
+((/home/vagrant/repos/3/elm-bank/Tests/11-in.json /home/vagrant/repos/3/elm-bank/Tests/11-out.json) (/home/vagrant/repos/3/elm-bank/Tests/12-in.json /home/vagrant/repos/3/elm-bank/Tests/12-out.json))
+((passed 2) (total 2) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/everglades/Tests/2-in.json /home/vagrant/repos/3/everglades/Tests/2-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'("Springfield, MA"
+  "Springfield, MO"
+  #hasheq((cities
+           .
+           (("Springfield, MA" (725 750))
+            ("West Springfield, MA" (675 750))
+            ("Springfield, OH" (500 500))
+            ("Springfield, MO" (200 300))
+            ("North Springfield, WA" (0 800))))
+          (connections . #hasheq())
+          (height . 800)
+          (width . 800)))
+(*** expected)
+'(#f)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/finger-lakes/Tests/1-in.json /home/vagrant/repos/3/finger-lakes/Tests/1-out.json)
+(testing /home/vagrant/repos/3/finger-lakes/Tests/2-in.json /home/vagrant/repos/3/finger-lakes/Tests/2-out.json)
+(testing /home/vagrant/repos/3/finger-lakes/Tests/3-in.json /home/vagrant/repos/3/finger-lakes/Tests/3-out.json)
+((/home/vagrant/repos/3/finger-lakes/Tests/1-in.json /home/vagrant/repos/3/finger-lakes/Tests/1-out.json) (/home/vagrant/repos/3/finger-lakes/Tests/2-in.json /home/vagrant/repos/3/finger-lakes/Tests/2-out.json) (/home/vagrant/repos/3/finger-lakes/Tests/3-in.json /home/vagrant/repos/3/finger-lakes/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/fort-revere/Tests/1-in.json /home/vagrant/repos/3/fort-revere/Tests/1-out.json)
+(testing /home/vagrant/repos/3/fort-revere/Tests/2-in.json /home/vagrant/repos/3/fort-revere/Tests/2-out.json)
+(testing /home/vagrant/repos/3/fort-revere/Tests/3-in.json /home/vagrant/repos/3/fort-revere/Tests/3-out.json)
+((/home/vagrant/repos/3/fort-revere/Tests/1-in.json /home/vagrant/repos/3/fort-revere/Tests/1-out.json) (/home/vagrant/repos/3/fort-revere/Tests/2-in.json /home/vagrant/repos/3/fort-revere/Tests/2-out.json) (/home/vagrant/repos/3/fort-revere/Tests/3-in.json /home/vagrant/repos/3/fort-revere/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/gallatin/Tests/1-in.json /home/vagrant/repos/3/gallatin/Tests/1-out.json)
+Traceback (most recent call last):
+  File "Other/main.py", line 89, in <module>
+    main()
+  File "Other/main.py", line 18, in main
+    map_obj = dict_to_map(map_json)
+  File "Other/main.py", line 66, in dict_to_map
+    return Map(width, height, cities, directed_connections)
+  File "/home/vagrant/repos/badlands/Trains/Common/map.py", line 62, in __init__
+    raise ValueError("City outside of board")
+ValueError: City outside of board
+---------------------------------
+(*** score 0)
+(*** on)
+'(" "
+  ",..,.,.,,,.,.,,,.,.,,,.,,"
+  #hasheq((cities
+           .
+           ((" " (0 0))
+            (",..,.,.,,,.,.,,,.,.,,,.,," (800 50))
+            ("w. E, 1r..,D" (500 800))))
+          (connections
+           .
+           #hasheq((| |
+                    .
+                    #hasheq((|,..,.,.,,,.,.,,,.,.,,,.,,| . #hasheq((red . 3)))
+                            (|w. E, 1r..,D| . #hasheq((green . 5)))))
+                   (|,..,.,.,,,.,.,,,.,.,,,.,,|
+                    .
+                    #hasheq((|w. E, 1r..,D| . #hasheq((blue . 4)))))))
+          (height . 800)
+          (width . 800)))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/vagrant/repos/3/gallatin/Tests/2-in.json /home/vagrant/repos/3/gallatin/Tests/2-out.json)
+(testing /home/vagrant/repos/3/gallatin/Tests/3-in.json /home/vagrant/repos/3/gallatin/Tests/3-out.json)
+((/home/vagrant/repos/3/gallatin/Tests/2-in.json /home/vagrant/repos/3/gallatin/Tests/2-out.json) (/home/vagrant/repos/3/gallatin/Tests/3-in.json /home/vagrant/repos/3/gallatin/Tests/3-out.json))
+((passed 2) (total 3) (partial-score 2))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/gateway-arch/Tests/1-in.json /home/vagrant/repos/3/gateway-arch/Tests/1-out.json)
+(testing /home/vagrant/repos/3/gateway-arch/Tests/2-in.json /home/vagrant/repos/3/gateway-arch/Tests/2-out.json)
+(testing /home/vagrant/repos/3/gateway-arch/Tests/3-in.json /home/vagrant/repos/3/gateway-arch/Tests/3-out.json)
+((/home/vagrant/repos/3/gateway-arch/Tests/1-in.json /home/vagrant/repos/3/gateway-arch/Tests/1-out.json) (/home/vagrant/repos/3/gateway-arch/Tests/2-in.json /home/vagrant/repos/3/gateway-arch/Tests/2-out.json) (/home/vagrant/repos/3/gateway-arch/Tests/3-in.json /home/vagrant/repos/3/gateway-arch/Tests/3-out.json))
+((passed 3) (total 3) (partial-score 3))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/glacier-bay/Tests/11-in.json /home/vagrant/repos/3/glacier-bay/Tests/11-out.json)
+(testing /home/vagrant/repos/3/glacier-bay/Tests/12-in.json /home/vagrant/repos/3/glacier-bay/Tests/12-out.json)
+(testing /home/vagrant/repos/3/glacier-bay/Tests/2-in.json /home/vagrant/repos/3/glacier-bay/Tests/2-out.json)
+(testing /home/vagrant/repos/3/glacier-bay/Tests/3-in.json /home/vagrant/repos/3/glacier-bay/Tests/3-out.json)
+((/home/vagrant/repos/3/glacier-bay/Tests/11-in.json /home/vagrant/repos/3/glacier-bay/Tests/11-out.json) (/home/vagrant/repos/3/glacier-bay/Tests/12-in.json /home/vagrant/repos/3/glacier-bay/Tests/12-out.json) (/home/vagrant/repos/3/glacier-bay/Tests/2-in.json /home/vagrant/repos/3/glacier-bay/Tests/2-out.json) (/home/vagrant/repos/3/glacier-bay/Tests/3-in.json /home/vagrant/repos/3/glacier-bay/Tests/3-out.json))
+((passed 4) (total 4) (partial-score 4))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/glacier/Tests/1-in.json /home/vagrant/repos/3/glacier/Tests/1-out.json)
+((/home/vagrant/repos/3/glacier/Tests/1-in.json /home/vagrant/repos/3/glacier/Tests/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/vagrant/repos/badlands/3/xmap)
+(testing /home/vagrant/repos/3/grand-canyon/Tests/4-in.json /home/vagrant/repos/3/grand-canyon/Tests/4-out.json)
+(testing /home/vagrant/repos/3/grand-canyon/Tests/5-in.json /home/vagrant/repos/3/grand-canyon/Tests/5-out.json)
+((/home/vagrant/repos/3/grand-canyon/Tests/4-in.json /home/vagrant/repos/3/grand-canyon/Tests/4-out.json) (/home/vagrant/repos/3/grand-canyon/Tests/5-in.json /home/vagrant/repos/3/grand-canyon/Tests/5-out.json))
+((passed 2) (total 2) (partial-score 2))

@@ -1,0 +1,14 @@
+#!/bin/bash
+# Run all tests
+
+source_dir=$(dirname "$(readlink -f "$0")")
+cd $source_dir/../Other
+
+if ! [ -f venv/bin/activate ]; then
+  echo "Please run make first."
+  exit 1
+fi
+
+source venv/bin/activate
+
+python3 -m unittest "$@"

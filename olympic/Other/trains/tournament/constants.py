@@ -1,0 +1,1 @@
+EMPTY_TOURNAMENT_RESULT = ([], set())

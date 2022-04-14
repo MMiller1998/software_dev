@@ -1,0 +1,24 @@
+{
+    "str": "hello",
+    "int": 5,
+    "negint": -5,
+    "zero": 0,
+    "true": true,
+    "false": false,
+    "none": null,
+    "object": {
+        "firstkey": "firstval",
+        "secondkey": "secondval",
+        "thirdkey": [3, 4, [10, 15]]
+    },
+    "array": [true, "suh", { "key": "val"}]
+}
+
+
+"ehl"
+
+-5    8         false  {"brackets":           "hello"
+}
+true null null null                     ["yah", true,
+null,    {   "obj" :      "ect", "one" :  "two"}, [ 111,    ["array", true]         ,
+null]    ] 1

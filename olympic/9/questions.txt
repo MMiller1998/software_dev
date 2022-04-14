@@ -1,0 +1,5 @@
+- Testing with mocks (_run_turns, _run_turn, what do)
+- Terminology for serialize/deserialize (json_utils)
+- Default arguments with None vs copy pasting code vs some better solution that we don't know of
+- (language specific but) objects as keys when they are not immutable by nature, but immutable in our use of them
+- Players "cheating" when being informed if they won or lost? (timing out, etc)

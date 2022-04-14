@@ -1,0 +1,29 @@
+[ ] Make player's play (on_turn) method adhere to spec
+  - RefereeActor will need to be able to access information about who owns what connections (RefereeState will keep track of it)
+    * This can be the union of PlayerState's acquired connections
+  - Move logic of figuring out what available destinations are acquireable from the RefereeState to the PlayerState
+
+[ ] Visitor pattern on ActionOptions is probably not necessary and introduces security risks/possible bugs.
+  - Definitely write unit tests
+  - Think about rewriting
+  - Probably lower priority
+
+[ ] End game if there are no active players left
+
+[ ] RefereeActor should use get_ranks instead of total_scores
+  - Move rank logic elsewhere
+
+[ ] Wrap all actor. calls (looking at actor.win right now)
+  - In the future, have access to some wrapper class that wraps calls automatically so we don't have to make sure to do it before calling anything on PlayerActor
+
+[ ] Enough destinations to run game = (num_dests_people_select * num_players) + num_destinations_not_selected (for this, 2 * num_players + 3)
+  - Validate this before even choosing a map or somewhere in that timeline, rather than in the middle of handing stuff out
+
+[ ] In tournament manager, between rounds, player order gets messed up when rankings come back.
+  - Use the rankings to remove non-winning players from originally ordered list, that way we don't need to keep track of extra info (as opponsed to keeping track of player age and re-sort ranking afterwards)
+
+[ ] Move player.end in loop to separate method
+
+[ ] Figure out when GameNotOverException would occur and how to deal with that
+
+[ ] Move try-except from _run_turns to own method

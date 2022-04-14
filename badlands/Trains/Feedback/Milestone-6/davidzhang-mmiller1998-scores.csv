@@ -1,0 +1,12 @@
+description,score,max
+Trains/Planning/manager-player-interface.md exist,5,5
+Trains/Player/player exist,5,5
+Trains/Admin/referee exist,5,5
+xstrategy exist,5,5
+Tests/5-out.json Tests/5-in.json Tests/4-out.json Tests/4-in.json Tests/3-out.json Tests/3-in.json Tests/2-out.json Tests/2-in.json Tests/1-out.json Tests/1-in.json exist,5,5
+bonus caught classmate bug,40,0
+code inspection,220,215
+instructor tests,50,50
+your tests correct,50,50
+matthias bonus,20,0
+total,405,340

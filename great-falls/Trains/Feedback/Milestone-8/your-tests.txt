@@ -1,0 +1,15 @@
+(testing /vagrant/canonical/8/xref)
+(testing /home/vagrant/new-repos/great-falls/8/Tests-0/1-in.json /home/vagrant/new-repos/great-falls/8/Tests-0/1-out.json)
+xtest: /vagrant/canonical/8/xref runs as 23299
+((/home/vagrant/new-repos/great-falls/8/Tests-0/1-in.json /home/vagrant/new-repos/great-falls/8/Tests-0/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /vagrant/canonical/8/xref)
+(testing /home/vagrant/new-repos/great-falls/8/Tests-1/2-in.json /home/vagrant/new-repos/great-falls/8/Tests-1/2-out.json)
+xtest: /vagrant/canonical/8/xref runs as 23302
+((/home/vagrant/new-repos/great-falls/8/Tests-1/2-in.json /home/vagrant/new-repos/great-falls/8/Tests-1/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /vagrant/canonical/8/xref)
+(testing /home/vagrant/new-repos/great-falls/8/Tests-2/3-in.json /home/vagrant/new-repos/great-falls/8/Tests-2/3-out.json)
+xtest: /vagrant/canonical/8/xref runs as 23305
+((/home/vagrant/new-repos/great-falls/8/Tests-2/3-in.json /home/vagrant/new-repos/great-falls/8/Tests-2/3-out.json))
+((passed 1) (total 1) (partial-score 1))

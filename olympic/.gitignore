@@ -1,0 +1,8 @@
+*.egg-info
+*.egg-infio
+
+Other/venv
+
+__pycache__
+.idea
+finger_lakes.egg-info
